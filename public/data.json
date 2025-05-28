@@ -3,124 +3,1108 @@
         "name": "PHY S101",
         "quizlets": [
             {
-                "name": "Trajectory of a Projectile",
+                "name": "Bar Pendulum",
                 "questions": [
                     {
-                        "question": "What is the formula for the range of a projectile?",
-                        "answer": "R = (v^2 * sin(2θ)) / g",
+                        "question": "What is the center of oscillation in a compound pendulum?",
+                        "answer": "The point where, if the entire mass were concentrated, the time period would remain unchanged",
                         "wrongAnswers": [
-                            "R = (v^2 * cos(2θ)) / g",
-                            "R = (v * sin(θ)) / g",
-                            "R = (v^2 * tan(θ)) / g"
+                            "The point where the pendulum is suspended from",
+                            "The point where the entire weight of the pendulum acts",
+                            "The point at which a pendulum stops oscillating"
                         ]
                     },
                     {
-                        "question": "How does air resistance affect projectile motion?",
-                        "answer": "Air resistance reduces the range and alters the trajectory.",
+                        "question": "What defines the center of percussion of a pendulum?",
+                        "answer": "The point where an impact does not cause a reactive force at the pivot",
                         "wrongAnswers": [
-                            "Air resistance has no effect on projectile motion.",
-                            "Air resistance increases the range of the projectile.",
-                            "Air resistance only affects vertical motion."
+                            "The point of maximum oscillation",
+                            "The point at which the pendulum is suspended",
+                            "The point where an impact causes maximum force at the pivot"
                         ]
                     },
                     {
-                        "question": "What is the maximum height of a projectile?",
-                        "answer": "H = (v^2 * sin^2(θ)) / (2g)",
+                        "question": "What is the center of suspension in a pendulum?",
+                        "answer": "The point where the pendulum is hung and oscillates about",
                         "wrongAnswers": [
-                            "H = (v^2 * cos^2(θ)) / (2g)",
-                            "H = (v * sin(θ)) / g",
-                            "H = (v^2 * tan(θ)) / g"
+                            "The point where the pendulum's mass is concentrated",
+                            "The point of equilibrium in oscillatory motion",
+                            "The point of maximum amplitude"
                         ]
                     },
                     {
-                        "question": "What factors affect the time of flight of a projectile?",
-                        "answer": "Initial velocity, launch angle, and acceleration due to gravity.",
+                        "question": "What is the center of mass of a body?",
+                        "answer": "The point where the entire mass can be considered concentrated for translational motion",
                         "wrongAnswers": [
-                            "Only the initial velocity affects the time of flight.",
-                            "The launch angle has no effect on the time of flight.",
-                            "Air resistance is the only factor affecting time of flight."
+                            "The point where all gravitational forces cancel out",
+                            "The point from which the pendulum hangs",
+                            "The geometric center of the object"
+                        ]
+                    },
+                    {
+                        "question": "How is the center of gravity best defined?",
+                        "answer": "The point at which the entire weight of the body acts for analyzing gravitational effects",
+                        "wrongAnswers": [
+                            "The point where the gravitational field is strongest",
+                            "The same as the center of oscillation",
+                            "The point where net torque is zero"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following statements best explains why Kater's Pendulum is considered better than a Bar Pendulum for measuring gravity?",
+                        "answer": "Kater's Pendulum eliminates the effects of air resistance and friction through knife-edge suspension and reversibility, leading to more accurate measurements.",
+                        "wrongAnswers": [
+                            "Kater's Pendulum is shorter and lighter than a Bar Pendulum, making it easier to handle.",
+                            "Bar Pendulum is more accurate because it has fewer components.",
+                            "Kater's Pendulum is better because it is simpler to construct and use."
+                        ]
+                    },
+                    {
+                        "question": "What defines a simple pendulum?",
+                        "answer": "A heavy particle suspended from a fixed support by a light inextensible string",
+                        "wrongAnswers": [
+                            "A rigid body oscillating about a horizontal axis",
+                            "A pendulum with mass distributed along its length",
+                            "A system of pendulums of varying lengths connected to a bar"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following best describes a compound pendulum?",
+                        "answer": "A rigid body oscillating about a horizontal axis in a vertical plane",
+                        "wrongAnswers": [
+                            "A mass on a string swinging in a circular path",
+                            "A particle suspended from a light string",
+                            "A set of pendulums transferring energy to each other"
+                        ]
+                    },
+                    {
+                        "question": "What distinguishes a compound pendulum from a simple pendulum?",
+                        "answer": "It has mass distributed along its length and a moment of inertia",
+                        "wrongAnswers": [
+                            "It swings faster than a simple pendulum",
+                            "It uses a spring instead of a string",
+                            "It oscillates in a horizontal rather than a vertical plane"
+                        ]
+                    },
+                    {
+                        "question": "What is Barton’s Pendulum known for?",
+                        "answer": "Having multiple pendulums of varying lengths transferring energy through a common bar",
+                        "wrongAnswers": [
+                            "Its oscillation in a conical path",
+                            "Using a spring for its motion",
+                            "Being a rigid body with a fixed pivot point"
+                        ]
+                    },
+                    {
+                        "question": "What describes a conical pendulum?",
+                        "answer": "A mass on a string that swings in horizontal circles, tracing a cone",
+                        "wrongAnswers": [
+                            "A pendulum that oscillates in a straight line",
+                            "A pendulum system used to transfer energy among multiple masses",
+                            "A heavy particle on a rigid rod swinging back and forth"
+                        ]
+                    },
+                    {
+                        "question": "What is the principle of a bar pendulum?",
+                        "answer": "It behaves like a compound pendulum and follows the laws of simple harmonic motion under gravity",
+                        "wrongAnswers": [
+                            "It works on the principle of electromagnetic induction",
+                            "It oscillates under the influence of restoring torque due to elasticity",
+                            "It rotates continuously without any restoring force"
+                        ]
+                    },
+                    {
+                        "question": "What is the primary use of a bar pendulum?",
+                        "answer": "To determine the acceleration due to gravity (g)",
+                        "wrongAnswers": [
+                            "To measure electrical resistance",
+                            "To convert mechanical energy into electrical energy",
+                            "To generate high torque in engines"
                         ]
                     }
                 ]
             },
             {
-                "name": "Bifilar Suspension",
+                "name": "Bifilar Suspension System",
                 "questions": [
                     {
-                        "question": "What is Bifilar Suspension?",
-                        "answer": "A system where an object is suspended by two parallel threads or wires of equal length.",
+                        "question": "What is the principle of a bifilar suspension system?",
+                        "answer": "To calculate the moment of inertia and the acceleration due to gravity (g)",
                         "wrongAnswers": [
-                            "A system using magnetic fields to suspend objects",
-                            "A single wire suspension technique",
-                            "A method of suspending objects using electrostatic forces"
+                            "To measure air resistance on rotating objects",
+                            "To calculate torque and rotational speed",
+                            "To determine angular displacement"
                         ]
                     },
                     {
-                        "question": "What is the formula for the period of oscillation in a bifilar suspension?",
-                        "answer": "T = 2π√(I/mgd²)",
+                        "question": "How is the bifilar suspension system used in aviation?",
+                        "answer": "To reduce vibration and measure the aircraft’s mass moment of inertia",
                         "wrongAnswers": [
-                            "T = 2π√(m/k)",
-                            "T = 2π√(L/g)",
-                            "T = 2π√(md²/I)"
+                            "To monitor cabin pressure and air flow",
+                            "To enhance fuel efficiency",
+                            "To calculate wind resistance at high altitudes"
                         ]
                     },
                     {
-                        "question": "How can bifilar suspension be used to determine moment of inertia?",
-                        "answer": "By measuring the period of oscillation and using the formula I = mgd²T²/4π²",
+                        "question": "Why is it called a 'bifilar' suspension system?",
+                        "answer": "Because it uses two parallel threads or wires for support",
                         "wrongAnswers": [
-                            "By measuring the angular velocity directly",
-                            "By calculating the torque applied to the system",
-                            "By determining the resonant frequency of the system"
+                            "Because it uses two springs to hold the mass",
+                            "Because it consists of a bilateral force system",
+                            "Because it involves bi-directional oscillation"
                         ]
                     },
                     {
-                        "question": "What happens to the period of oscillation if the separation between the threads is increased?",
-                        "answer": "The period decreases",
+                        "question": "Which of the following is a correct application of a bifilar suspension system?",
+                        "answer": "Calculating moment of inertia in drones and suspension bridges",
                         "wrongAnswers": [
-                            "The period increases",
-                            "The period remains unchanged",
-                            "The period becomes zero"
+                            "Detecting electrical conductivity",
+                            "Stabilizing magnetic fields",
+                            "Controlling altitude in spacecraft"
+                        ]
+                    },
+                    {
+                        "question": "What is torsion?",
+                        "answer": "The action of twisting one end of an object while the other end is fixed",
+                        "wrongAnswers": [
+                            "The motion of an object in free fall",
+                            "The vibration of particles in a transverse wave",
+                            "The motion of an object along a circular path"
+                        ]
+                    },
+                    {
+                        "question": "What are torsional oscillations?",
+                        "answer": "Back-and-forth rotations around an axis due to restoring torque after twisting",
+                        "wrongAnswers": [
+                            "Oscillations caused by a force acting vertically",
+                            "Oscillations involving linear displacement along an axis",
+                            "Oscillations of objects suspended by a spring"
+                        ]
+                    },
+                    {
+                        "question": "What is the working principle of a torsional pendulum?",
+                        "answer": "Restoring torque and rotational inertia causing angular SHM",
+                        "wrongAnswers": [
+                            "Gravitational pull and mass displacement",
+                            "Linear momentum conservation",
+                            "Air resistance and pendulum length"
+                        ]
+                    },
+                    {
+                        "question": "In a torsional pendulum, what provides the restoring force for the oscillation?",
+                        "answer": "Twisting of the wire or string",
+                        "wrongAnswers": [
+                            "Gravity",
+                            "Elastic string tension",
+                            "Magnetic repulsion"
+                        ]
+                    },
+                    {
+                        "question": "What is the moment of inertia?",
+                        "answer": "The property by which a body resists changes in its rotational motion about an axis",
+                        "wrongAnswers": [
+                            "The force required to stop a rotating object",
+                            "The distance from the center of mass to the pivot point",
+                            "The speed of rotation of an object"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following expressions correctly defines the moment of inertia?",
+                        "answer": "I = ∑miri²",
+                        "wrongAnswers": [
+                            "I = mr",
+                            "I = F × r",
+                            "I = mv²"
+                        ]
+                    },
+                    {
+                        "question": "What is the radius of gyration?",
+                        "answer": "The distance from the axis where all mass can be concentrated to produce the same moment of inertia",
+                        "wrongAnswers": [
+                            "The radius of a circle with the same area as the object",
+                            "The maximum radius of the object",
+                            "The radius of a disc spinning at maximum velocity"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following best defines the Theorem of Parallel Axes?",
+                        "answer": "I = Icm + Ma², where Icm is moment of inertia about center of mass axis",
+                        "wrongAnswers": [
+                            "The moment of inertia of any axis is the difference between two perpendicular axes",
+                            "I = Icm − Ma²",
+                            "I = M × r × v"
+                        ]
+                    },
+                    {
+                        "question": "What does the Theorem of Perpendicular Axes state?",
+                        "answer": "Iz = Ix + Iy for a planar body",
+                        "wrongAnswers": [
+                            "Iz = Ix + Iy for a 3D body",
+                            "Iz = Ix − Iy for a solid sphere",
+                            "Ix = Iy = 0 for symmetric objects"
+                        ]
+                    },
+                    {
+                        "question": "What is the purpose of a plumb line?",
+                        "answer": "To determine vertical alignment using gravity",
+                        "wrongAnswers": [
+                            "To measure horizontal displacement",
+                            "To mark reference points for electrical wiring",
+                            "To suspend rotating machinery"
+                        ]
+                    },
+                    {
+                        "question": "Why does a plumb bob point directly toward the Earth's center of gravity?",
+                        "answer": "Due to gravitational pull acting vertically downward",
+                        "wrongAnswers": [
+                            "Because of wind resistance acting on the weight",
+                            "Because it is magnetized",
+                            "Because it is aligned with magnetic north"
                         ]
                     }
                 ]
             },
             {
-                "name": "Frequency of AC Mains by Melde's Method",
+                "name": "Coupled Pendulum",
                 "questions": [
                     {
-                        "question": "What is Melde's method primarily used for?",
-                        "answer": "To determine the frequency of AC current using standing waves in a string",
+                        "question": "What is a coupled pendulum?",
+                        "answer": "Two or more pendulums connected by a spring or coupling mechanism to allow energy transfer",
                         "wrongAnswers": [
-                            "To measure the voltage of AC current",
-                            "To calculate resistance in electrical circuits",
-                            "To determine the wavelength of light"
+                            "A single pendulum oscillating in a magnetic field",
+                            "A pendulum that swings in both vertical and horizontal directions",
+                            "A pendulum system submerged in a liquid to study viscosity"
                         ]
                     },
                     {
-                        "question": "In Melde's method, what is the relationship between the frequency of vibration and the length of the loop?",
-                        "answer": "f = v/2L, where v is the wave velocity and L is the length of the loop",
+                        "question": "What is the 'beat' phenomenon?",
+                        "answer": "A phenomenon where two waves of nearby frequencies interfere, producing periodic variations in amplitude",
                         "wrongAnswers": [
-                            "f = 2Lv",
-                            "f = L/v",
-                            "f = v²/L"
+                            "An oscillation with no damping effect",
+                            "A pattern created by two waves with the same frequency",
+                            "The natural frequency of a single pendulum"
                         ]
                     },
                     {
-                        "question": "What is the principle behind Melde's experiment?",
-                        "answer": "An alternating current in a wire placed in a magnetic field creates mechanical vibrations of the same frequency",
+                        "question": "What characterizes an underdamped oscillation?",
+                        "answer": "It oscillates with gradually decreasing amplitude due to small damping",
                         "wrongAnswers": [
-                            "Electromagnetic induction creates standing waves",
-                            "Resonance occurs at specific frequencies determined by the power supply",
-                            "AC current directly vibrates the string through electrical attraction"
+                            "It has no restoring force",
+                            "It returns to equilibrium without oscillating",
+                            "It oscillates with amplitude increasing over time"
                         ]
                     },
                     {
-                        "question": "How does tension in the string affect the frequency in Melde's experiment?",
-                        "answer": "Increasing tension increases the frequency of standing waves for a given length",
+                        "question": "In which type of oscillation does the system return to equilibrium without oscillating and in the shortest time possible?",
+                        "answer": "Critically Damped Oscillation",
                         "wrongAnswers": [
-                            "Tension has no effect on the frequency",
-                            "Increasing tension decreases the frequency",
-                            "Tension only affects the amplitude, not the frequency"
+                            "Underdamped Oscillation",
+                            "Overdamped Oscillation",
+                            "Forced Oscillation"
+                        ]
+                    },
+                    {
+                        "question": "What is an overdamped oscillation?",
+                        "answer": "A system with strong damping that returns to equilibrium slowly without oscillating",
+                        "wrongAnswers": [
+                            "An oscillation where the system never returns to equilibrium",
+                            "An oscillation with no damping at all",
+                            "An oscillation with multiple frequencies"
+                        ]
+                    },
+                    {
+                        "question": "What are coupled oscillations?",
+                        "answer": "Oscillations where two or more systems interact and exchange energy",
+                        "wrongAnswers": [
+                            "Oscillations in which motion is confined to one direction only",
+                            "Oscillations that occur at only one natural frequency",
+                            "Oscillations with no damping or friction"
+                        ]
+                    },
+                    {
+                        "question": "What does the damping factor describe?",
+                        "answer": "How quickly oscillations die out over time",
+                        "wrongAnswers": [
+                            "The number of oscillations per second",
+                            "The total energy in the system",
+                            "The amplitude of the wave"
+                        ]
+                    },
+                    {
+                        "question": "What does 'degree of freedom' refer to in pendulum motion?",
+                        "answer": "The minimum number of coordinates needed to describe its motion",
+                        "wrongAnswers": [
+                            "The number of pendulums in a system",
+                            "The amplitude of the pendulum's swing",
+                            "The number of cycles it completes per second"
+                        ]
+                    },
+                    {
+                        "question": "A simple pendulum has how many degrees of freedom?",
+                        "answer": "One",
+                        "wrongAnswers": [
+                            "Two",
+                            "Three",
+                            "Zero"
+                        ]
+                    },
+                    {
+                        "question": "What is the center of oscillation in a compound pendulum?",
+                        "answer": "The point where, if the entire mass were concentrated, the time period would remain unchanged",
+                        "wrongAnswers": [
+                            "The point where the pendulum is suspended from",
+                            "The point where the entire weight of the pendulum acts",
+                            "The point at which a pendulum stops oscillating"
+                        ]
+                    },
+                    {
+                        "question": "What defines the center of percussion of a pendulum?",
+                        "answer": "The point where an impact does not cause a reactive force at the pivot",
+                        "wrongAnswers": [
+                            "The point of maximum oscillation",
+                            "The point at which the pendulum is suspended",
+                            "The point where an impact causes maximum force at the pivot"
+                        ]
+                    },
+                    {
+                        "question": "What is the center of suspension in a pendulum?",
+                        "answer": "The point where the pendulum is hung and oscillates about",
+                        "wrongAnswers": [
+                            "The point where the pendulum's mass is concentrated",
+                            "The point of equilibrium in oscillatory motion",
+                            "The point of maximum amplitude"
+                        ]
+                    },
+                    {
+                        "question": "What is the center of mass of a body?",
+                        "answer": "The point where the entire mass can be considered concentrated for translational motion",
+                        "wrongAnswers": [
+                            "The point where all gravitational forces cancel out",
+                            "The point from which the pendulum hangs",
+                            "The geometric center of the object"
+                        ]
+                    },
+                    {
+                        "question": "How is the center of gravity best defined?",
+                        "answer": "The point at which the entire weight of the body acts for analyzing gravitational effects",
+                        "wrongAnswers": [
+                            "The point where the gravitational field is strongest",
+                            "The same as the center of oscillation",
+                            "The point where net torque is zero"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following best describes a compound pendulum?",
+                        "answer": "A rigid body oscillating about a horizontal axis in a vertical plane",
+                        "wrongAnswers": [
+                            "A mass on a string swinging in a circular path",
+                            "A particle suspended from a light string",
+                            "A set of pendulums transferring energy to each other"
+                        ]
+                    },
+                    {
+                        "question": "What distinguishes a compound pendulum from a simple pendulum?",
+                        "answer": "It has mass distributed along its length and a moment of inertia",
+                        "wrongAnswers": [
+                            "It swings faster than a simple pendulum",
+                            "It uses a spring instead of a string",
+                            "It oscillates in a horizontal rather than a vertical plane"
+                        ]
+                    },
+                    {
+                        "question": "What is Barton’s Pendulum known for?",
+                        "answer": "Having multiple pendulums of varying lengths transferring energy through a common bar",
+                        "wrongAnswers": [
+                            "Its oscillation in a conical path",
+                            "Using a spring for its motion",
+                            "Being a rigid body with a fixed pivot point"
+                        ]
+                    },
+                    {
+                        "question": "What describes a conical pendulum?",
+                        "answer": "A mass on a string that swings in horizontal circles, tracing a cone",
+                        "wrongAnswers": [
+                            "A pendulum that oscillates in a straight line",
+                            "A pendulum system used to transfer energy among multiple masses",
+                            "A heavy particle on a rigid rod swinging back and forth"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Flywheel",
+                "questions": [
+                    {
+                        "question": "What is the moment of inertia?",
+                        "answer": "The property by which a body resists changes in its rotational motion about an axis",
+                        "wrongAnswers": [
+                            "The force required to stop a rotating object",
+                            "The distance from the center of mass to the pivot point",
+                            "The speed of rotation of an object"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following expressions correctly defines the moment of inertia?",
+                        "answer": "I = ∑miri²",
+                        "wrongAnswers": [
+                            "I = mr",
+                            "I = F × r",
+                            "I = mv²"
+                        ]
+                    },
+                    {
+                        "question": "What is the physical significance of moment of inertia?",
+                        "answer": "It defines how much torque is required to rotate or stop an object",
+                        "wrongAnswers": [
+                            "It determines how fast an object moves linearly",
+                            "It replaces torque in the equation of motion",
+                            "It measures the mass of an object"
+                        ]
+                    },
+                    {
+                        "question": "What is the radius of gyration?",
+                        "answer": "The distance from the axis where all mass can be concentrated to produce the same moment of inertia",
+                        "wrongAnswers": [
+                            "The radius of a circle with the same area as the object",
+                            "The maximum radius of the object",
+                            "The radius of a disc spinning at maximum velocity"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following best defines the Theorem of Parallel Axes?",
+                        "answer": "I = Icm + Ma², where Icm is moment of inertia about center of mass axis",
+                        "wrongAnswers": [
+                            "The moment of inertia of any axis is the difference between two perpendicular axes",
+                            "I = Icm − Ma²",
+                            "I = M × r × v"
+                        ]
+                    },
+                    {
+                        "question": "What does the Theorem of Perpendicular Axes state?",
+                        "answer": "Iz = Ix + Iy for a planar body",
+                        "wrongAnswers": [
+                            "Iz = Ix + Iy for a 3D body",
+                            "Iz = Ix − Iy for a solid sphere",
+                            "Ix = Iy = 0 for symmetric objects"
+                        ]
+                    },
+                    {
+                        "question": "What principle does a flywheel operate on?",
+                        "answer": "Conservation of angular momentum and kinetic energy storage",
+                        "wrongAnswers": [
+                            "Conservation of mass",
+                            "Newton’s third law of motion",
+                            "Law of inertia"
+                        ]
+                    },
+                    {
+                        "question": "What is the role of the crank in a flywheel system?",
+                        "answer": "To apply torque and cause the flywheel to rotate",
+                        "wrongAnswers": [
+                            "To store energy in the flywheel",
+                            "To stop the flywheel from rotating",
+                            "To support the flywheel's structure"
+                        ]
+                    },
+                    {
+                        "question": "What is the function of the shaft in a flywheel setup?",
+                        "answer": "It serves as the axis on which the flywheel rotates",
+                        "wrongAnswers": [
+                            "It generates energy for the system",
+                            "It acts as a brake for the flywheel",
+                            "It stores compressed air for the flywheel"
+                        ]
+                    },
+                    {
+                        "question": "How does a flywheel store energy?",
+                        "answer": "By spinning a mass at high speed to store kinetic energy",
+                        "wrongAnswers": [
+                            "By compressing gas inside a cylinder",
+                            "By increasing its temperature",
+                            "By converting electrical energy into light"
+                        ]
+                    },
+                    {
+                        "question": "What is one practical use of a flywheel in stationary engines?",
+                        "answer": "To smooth out the motion by storing and releasing energy",
+                        "wrongAnswers": [
+                            "To measure fuel efficiency",
+                            "To control engine temperature",
+                            "To reduce the weight of the engine"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Frequency Of Ac Mains",
+                "questions": [
+                    {
+                        "question": "What is a transverse wave?",
+                        "answer": "A wave where particles vibrate perpendicular to the direction of wave propagation",
+                        "wrongAnswers": [
+                            "A wave where particles vibrate in the same direction as the wave propagation",
+                            "A wave that travels only through gases",
+                            "A wave that creates electrical current in a conductor"
+                        ]
+                    },
+                    {
+                        "question": "In which media can transverse waves occur?",
+                        "answer": "Only in solids and liquids",
+                        "wrongAnswers": [
+                            "Only in gases",
+                            "Only in solids",
+                            "In solids, liquids, and gases"
+                        ]
+                    },
+                    {
+                        "question": "What is a longitudinal wave?",
+                        "answer": "A wave where the medium particles vibrate in the same direction as the wave propagation",
+                        "wrongAnswers": [
+                            "A wave where the medium particles vibrate perpendicular to the direction of wave propagation",
+                            "A wave that propagates only through solids",
+                            "A type of standing wave in a vacuum"
+                        ]
+                    },
+                    {
+                        "question": "What type of wave is typically observed in air?",
+                        "answer": "Longitudinal wave",
+                        "wrongAnswers": [
+                            "Transverse wave",
+                            "Rotational wave",
+                            "Gravitational wave"
+                        ]
+                    },
+                    {
+                        "question": "What are the characteristics of longitudinal waves?",
+                        "answer": "Compression and rarefaction formation",
+                        "wrongAnswers": [
+                            "Crest and trough formation",
+                            "Occurs only in solids",
+                            "Always produces loops"
+                        ]
+                    },
+                    {
+                        "question": "What is the purpose of connecting a bulb in series with a solenoid?",
+                        "answer": "To provide resistance and prevent overheating of the coil",
+                        "wrongAnswers": [
+                            "To brighten the waveform display",
+                            "To eliminate magnetic interference",
+                            "To amplify the current flow"
+                        ]
+                    },
+                    {
+                        "question": "What is a pulse in a string?",
+                        "answer": "A localized disturbance that travels along the string",
+                        "wrongAnswers": [
+                            "A sustained oscillation in the medium",
+                            "A continuous compression of the wave",
+                            "The point where two waves meet and cancel each other"
+                        ]
+                    },
+                    {
+                        "question": "What is inductance(L)?",
+                        "answer": "The property of a circuit that opposes changes in electric current",
+                        "wrongAnswers": [
+                            "A property that enhances electric current",
+                            "The resistance of a wire to electricity",
+                            "The measure of voltage in a circuit"
+                        ]
+                    },
+                    {
+                        "question": "What is mutual inductance?",
+                        "answer": "The generation of EMF in one coil due to a changing current in another coil",
+                        "wrongAnswers": [
+                            "Resistance due to heat in one coil",
+                            "The flow of current in opposite directions in the same coil",
+                            "The simultaneous use of AC and DC current in a single circuit"
+                        ]
+                    },
+                    {
+                        "question": "Why are only even numbers of loops observed in longitudinal wave arrangements?",
+                        "answer": "Because each complete vibration of the rod causes half a vibration in the string",
+                        "wrongAnswers": [
+                            "Due to phase difference in coil current",
+                            "Due to resonance with the transverse wave",
+                            "Because of unequal tension in the string"
+                        ]
+                    },
+                    {
+                        "question": "What is the correct condition for forming real loops in Melde’s experiment?",
+                        "answer": "The frequency of the vibrator must match the natural frequency of the string (resonance condition)",
+                        "wrongAnswers": [
+                            "The string must be very loose and the tension should be negligible",
+                            "The string should be clamped at both ends tightly",
+                            "The wave must be longitudinal and travel in air"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Inertia Table",
+                "questions": [
+                    {
+                        "question": "What is the primary purpose of an inertia table in the context of torsional pendulums?",
+                        "answer": "To determine the moment of inertia of different bodies",
+                        "wrongAnswers": [
+                            "To measure gravitational force",
+                            "To determine the weight of an object",
+                            "To calculate torque applied to rotating systems"
+                        ]
+                    },
+                    {
+                        "question": "What is the purpose of a plumb line?",
+                        "answer": "To determine vertical alignment using gravity",
+                        "wrongAnswers": [
+                            "To measure horizontal displacement",
+                            "To mark reference points for electrical wiring",
+                            "To suspend rotating machinery"
+                        ]
+                    },
+                    {
+                        "question": "Why does a plumb bob point directly toward the Earth's center of gravity?",
+                        "answer": "Due to gravitational pull acting vertically downward",
+                        "wrongAnswers": [
+                            "Because of wind resistance acting on the weight",
+                            "Because it is magnetized",
+                            "Because it is aligned with magnetic north"
+                        ]
+                    },
+                    {
+                        "question": "What is torsion?",
+                        "answer": "The action of twisting one end of an object while the other end is fixed",
+                        "wrongAnswers": [
+                            "The motion of an object in free fall",
+                            "The vibration of particles in a transverse wave",
+                            "The motion of an object along a circular path"
+                        ]
+                    },
+                    {
+                        "question": "What are torsional oscillations?",
+                        "answer": "Back-and-forth rotations around an axis due to restoring torque after twisting",
+                        "wrongAnswers": [
+                            "Oscillations caused by a force acting vertically",
+                            "Oscillations involving linear displacement along an axis",
+                            "Oscillations of objects suspended by a spring"
+                        ]
+                    },
+                    {
+                        "question": "What is the working principle of a torsional pendulum?",
+                        "answer": "Restoring torque and rotational inertia causing angular SHM",
+                        "wrongAnswers": [
+                            "Gravitational pull and mass displacement",
+                            "Linear momentum conservation",
+                            "Air resistance and pendulum length"
+                        ]
+                    },
+                    {
+                        "question": "In a torsional pendulum, what provides the restoring force for the oscillation?",
+                        "answer": "Twisting of the wire or string",
+                        "wrongAnswers": [
+                            "Gravity",
+                            "Elastic string tension",
+                            "Magnetic repulsion"
+                        ]
+                    },
+                    {
+                        "question": "What is inertia?",
+                        "answer": "The resistance of an object to any change in its state of rest or uniform motion unless acted upon by an external force",
+                        "wrongAnswers": [
+                            "The ability of an object to accelerate rapidly",
+                            "The tendency of objects to rotate indefinitely",
+                            "The property that causes objects to attract each other"
+                        ]
+                    },
+                    {
+                        "question": "What is the purpose of the mirror on an inertia table?",
+                        "answer": "To track angular displacement and accurately measure the period of oscillation",
+                        "wrongAnswers": [
+                            "To reflect light for visual appeal",
+                            "To measure the weight of the object",
+                            "To observe surface deformations"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following is NOT a use of an inertia table?",
+                        "answer": "Measuring linear acceleration of cars",
+                        "wrongAnswers": [
+                            "Determining the moment of inertia",
+                            "Verifying theoretical values of rotational inertia",
+                            "Analyzing rotational motion and material properties"
+                        ]
+                    },
+                    {
+                        "question": "How can the vertical alignment of an inertia table be checked?",
+                        "answer": "Using a plumbline to check vertical reference",
+                        "wrongAnswers": [
+                            "Using a stopwatch",
+                            "Using a protractor",
+                            "By measuring horizontal displacement"
+                        ]
+                    },
+                    {
+                        "question": "If the inertia table is not vertical, how can you correct it?",
+                        "answer": "Adjust the legs or place shims under them to level the table",
+                        "wrongAnswers": [
+                            "Tilt the object being measured",
+                            "Use magnets to hold it in place",
+                            "Ignore the error if it's small"
+                        ]
+                    },
+                    {
+                        "question": "The motion of an inertia table during use is best described as:",
+                        "answer": "Angular simple harmonic motion",
+                        "wrongAnswers": [
+                            "Linear harmonic motion",
+                            "Uniform circular motion",
+                            "Irregular vibration"
+                        ]
+                    },
+                    {
+                        "question": "What is the moment of inertia?",
+                        "answer": "The property by which a body resists changes in its rotational motion about an axis",
+                        "wrongAnswers": [
+                            "The force required to stop a rotating object",
+                            "The distance from the center of mass to the pivot point",
+                            "The speed of rotation of an object"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following expressions correctly defines the moment of inertia?",
+                        "answer": "I = ∑miri²",
+                        "wrongAnswers": [
+                            "I = mr",
+                            "I = F × r",
+                            "I = mv²"
+                        ]
+                    },
+                    {
+                        "question": "What is the radius of gyration?",
+                        "answer": "The distance from the axis where all mass can be concentrated to produce the same moment of inertia",
+                        "wrongAnswers": [
+                            "The radius of a circle with the same area as the object",
+                            "The maximum radius of the object",
+                            "The radius of a disc spinning at maximum velocity"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following best defines the Theorem of Parallel Axes?",
+                        "answer": "I = Icm + Ma², where Icm is moment of inertia about center of mass axis",
+                        "wrongAnswers": [
+                            "The moment of inertia of any axis is the difference between two perpendicular axes",
+                            "I = Icm − Ma²",
+                            "I = M × r × v"
+                        ]
+                    },
+                    {
+                        "question": "What does the Theorem of Perpendicular Axes state?",
+                        "answer": "Iz = Ix + Iy for a planar body",
+                        "wrongAnswers": [
+                            "Iz = Ix + Iy for a 3D body",
+                            "Iz = Ix − Iy for a solid sphere",
+                            "Ix = Iy = 0 for symmetric objects"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Katers Pendulum",
+                "questions": [
+                    {
+                        "question": "What is the center of oscillation in a compound pendulum?",
+                        "answer": "The point where, if the entire mass were concentrated, the time period would remain unchanged",
+                        "wrongAnswers": [
+                            "The point where the pendulum is suspended from",
+                            "The point where the entire weight of the pendulum acts",
+                            "The point at which a pendulum stops oscillating"
+                        ]
+                    },
+                    {
+                        "question": "What defines the center of percussion of a pendulum?",
+                        "answer": "The point where an impact does not cause a reactive force at the pivot",
+                        "wrongAnswers": [
+                            "The point of maximum oscillation",
+                            "The point at which the pendulum is suspended",
+                            "The point where an impact causes maximum force at the pivot"
+                        ]
+                    },
+                    {
+                        "question": "What is the center of suspension in a pendulum?",
+                        "answer": "The point where the pendulum is hung and oscillates about",
+                        "wrongAnswers": [
+                            "The point where the pendulum's mass is concentrated",
+                            "The point of equilibrium in oscillatory motion",
+                            "The point of maximum amplitude"
+                        ]
+                    },
+                    {
+                        "question": "What is the center of mass of a body?",
+                        "answer": "The point where the entire mass can be considered concentrated for translational motion",
+                        "wrongAnswers": [
+                            "The point where all gravitational forces cancel out",
+                            "The point from which the pendulum hangs",
+                            "The geometric center of the object"
+                        ]
+                    },
+                    {
+                        "question": "How is the center of gravity best defined?",
+                        "answer": "The point at which the entire weight of the body acts for analyzing gravitational effects",
+                        "wrongAnswers": [
+                            "The point where the gravitational field is strongest",
+                            "The same as the center of oscillation",
+                            "The point where net torque is zero"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following statements best explains why Kater's Pendulum is considered better than a Bar Pendulum for measuring gravity?",
+                        "answer": "Kater's Pendulum eliminates the effects of air resistance and friction through knife-edge suspension and reversibility, leading to more accurate measurements.",
+                        "wrongAnswers": [
+                            "Kater's Pendulum is shorter and lighter than a Bar Pendulum, making it easier to handle.",
+                            "Bar Pendulum is more accurate because it has fewer components.",
+                            "Kater's Pendulum is better because it is simpler to construct and use."
+                        ]
+                    },
+                    {
+                        "question": "What is the primary purpose of Kater's Pendulum?",
+                        "answer": "To measure the acceleration due to gravity with high precision",
+                        "wrongAnswers": [
+                            "To measure the time period of a simple pendulum",
+                            "To demonstrate the principles of oscillation",
+                            "To compare different types of pendulums"
+                        ]
+                    },
+                    {
+                        "question": "What is the main advantage of using Kater's Pendulum over a simple pendulum?",
+                        "answer": "It provides a more accurate measurement of gravitational acceleration by allowing for adjustments to eliminate errors.",
+                        "wrongAnswers": [
+                            "It can be used in any environment without adjustments.",
+                            "It is easier to set up and requires less space.",
+                            "It can be used to measure other physical constants."
+                        ]
+                    },
+                    {
+                        "question": "What defines a simple pendulum?",
+                        "answer": "A heavy particle suspended from a fixed support by a light inextensible string",
+                        "wrongAnswers": [
+                            "A rigid body oscillating about a horizontal axis",
+                            "A pendulum with mass distributed along its length",
+                            "A system of pendulums of varying lengths connected to a bar"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following best describes a compound pendulum?",
+                        "answer": "A rigid body oscillating about a horizontal axis in a vertical plane",
+                        "wrongAnswers": [
+                            "A mass on a string swinging in a circular path",
+                            "A particle suspended from a light string",
+                            "A set of pendulums transferring energy to each other"
+                        ]
+                    },
+                    {
+                        "question": "What distinguishes a compound pendulum from a simple pendulum?",
+                        "answer": "It has mass distributed along its length and a moment of inertia",
+                        "wrongAnswers": [
+                            "It swings faster than a simple pendulum",
+                            "It uses a spring instead of a string",
+                            "It oscillates in a horizontal rather than a vertical plane"
+                        ]
+                    },
+                    {
+                        "question": "What is Barton’s Pendulum known for?",
+                        "answer": "Having multiple pendulums of varying lengths transferring energy through a common bar",
+                        "wrongAnswers": [
+                            "Its oscillation in a conical path",
+                            "Using a spring for its motion",
+                            "Being a rigid body with a fixed pivot point"
+                        ]
+                    },
+                    {
+                        "question": "What describes a conical pendulum?",
+                        "answer": "A mass on a string that swings in horizontal circles, tracing a cone",
+                        "wrongAnswers": [
+                            "A pendulum that oscillates in a straight line",
+                            "A pendulum system used to transfer energy among multiple masses",
+                            "A heavy particle on a rigid rod swinging back and forth"
+                        ]
+                    },
+                    {
+                        "question": "Which of the following is a reason why Kater's Pendulum is considered more accurate than a Bar Pendulum for measuring gravity?",
+                        "answer": "It eliminates effects of air resistance and friction using a knife-edge suspension and reversible design",
+                        "wrongAnswers": [
+                            "It is shorter in length and swings faster",
+                            "It is easier to construct and calibrate",
+                            "It uses electronic sensors for precise timing"
+                        ]
+                    },
+                    {
+                        "question": "Why is Kater’s Pendulum referred to as a 'reversible pendulum'?",
+                        "answer": "It can be swung from two pivot points and the periods of oscillation are the same",
+                        "wrongAnswers": [
+                            "It oscillates in both vertical and horizontal planes",
+                            "It uses a reversible magnet system for calibration",
+                            "It reverses its direction automatically after every swing"
+                        ]
+                    },
+                    {
+                        "question": "What is the 'effective length' in Kater's Pendulum?",
+                        "answer": "The distance between the center of oscillation and the center of suspension",
+                        "wrongAnswers": [
+                            "The total height from the pivot to the ground",
+                            "The length of the metal rod used in the pendulum",
+                            "The arc length traced by the pendulum's motion"
+                        ]
+                    },
+                    {
+                        "question": "How does Kater’s Pendulum allow for accurate measurement of gravity without knowing the exact center of mass?",
+                        "answer": "By ensuring the same period of oscillation from both pivot points and using the distance between them",
+                        "wrongAnswers": [
+                            "By using a digital sensor to detect motion",
+                            "By using a perfectly uniform rod",
+                            "By suspending it in a vacuum chamber"
+                        ]
+                    },
+                    {
+                        "question": "What must be measured in Kater’s Pendulum to calculate the acceleration due to gravity accurately?",
+                        "answer": "The distance between the pivots and the periods of oscillation",
+                        "wrongAnswers": [
+                            "The weight and volume of the pendulum",
+                            "The air resistance and damping force",
+                            "The diameter of the pendulum’s rod"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Spring Oscillations",
+                "questions": [
+                    {
+                        "question": "What is the spring constant?",
+                        "answer": "Restoring force per unit displacement",
+                        "wrongAnswers": [
+                            "The time required for one oscillation",
+                            "The length of the spring at rest",
+                            "The weight of the mass on the spring"
+                        ]
+                    },
+                    {
+                        "question": "What does the spring constant physically represent?",
+                        "answer": "A measure of how stiff a spring is",
+                        "wrongAnswers": [
+                            "The number of oscillations per second",
+                            "The distance between coils",
+                            "The energy stored in a spring"
+                        ]
+                    },
+                    {
+                        "question": "What happens when the spring constant increases?",
+                        "answer": "Stiffness increases and more torque is required",
+                        "wrongAnswers": [
+                            "Stiffness decreases",
+                            "Less torque is required to compress the spring",
+                            "Oscillations become slower"
+                        ]
+                    },
+                    {
+                        "question": "What is parallax error?",
+                        "answer": "An error from viewing the scale at an angle rather than perpendicular",
+                        "wrongAnswers": [
+                            "A fault in the instrument",
+                            "A type of reading error due to friction",
+                            "The difference in readings due to temperature"
+                        ]
+                    },
+                    {
+                        "question": "What is angular velocity?",
+                        "answer": "Angular displacement divided by time",
+                        "wrongAnswers": [
+                            "The number of cycles per second",
+                            "Torque divided by mass",
+                            "Change in radius over time"
+                        ]
+                    },
+                    {
+                        "question": "What is angular acceleration?",
+                        "answer": "Rate of change of angular velocity with respect to time",
+                        "wrongAnswers": [
+                            "Rate of change of linear displacement",
+                            "Rate of change of torque",
+                            "Change in angular displacement per second"
+                        ]
+                    },
+                    {
+                        "question": "What is angular SHM?",
+                        "answer": "Oscillatory motion where torque is proportional to angular displacement",
+                        "wrongAnswers": [
+                            "Rotation around a fixed axis with constant velocity",
+                            "Constant rotational motion",
+                            "Non-periodic angular movement"
+                        ]
+                    },
+                    {
+                        "question": "What is the difference between angular velocity and angular speed?",
+                        "answer": "Angular velocity includes direction; angular speed does not",
+                        "wrongAnswers": [
+                            "Both are scalar quantities",
+                            "Angular velocity is scalar, angular speed is vector",
+                            "There is no difference"
+                        ]
+                    },
+                    {
+                        "question": "Why is the system kept horizontal in angular SHM experiments?",
+                        "answer": "To ensure torque is maximum due to sinθ being maximum at 90°",
+                        "wrongAnswers": [
+                            "Because gravity doesn't affect it",
+                            "To reduce friction",
+                            "To align with the spring’s natural direction"
+                        ]
+                    },
+                    {
+                        "question": "What is a common daily use of a spring system as described?",
+                        "answer": "Used in cars to absorb bumps",
+                        "wrongAnswers": [
+                            "Used in ceiling fans",
+                            "Used in light bulbs",
+                            "Used in thermometers"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Trajectory Of Projectile",
+                "questions": [
+                    {
+                        "question": "What is a projectile?",
+                        "answer": "An object thrown into space upon which the only acting force is gravity",
+                        "wrongAnswers": [
+                            "An object that generates its own thrust in the air",
+                            "An object that moves in a straight line without acceleration",
+                            "A stationary object in equilibrium"
+                        ]
+                    },
+                    {
+                        "question": "What is a trajectory?",
+                        "answer": "The path followed by a projectile under the influence of gravity",
+                        "wrongAnswers": [
+                            "The straight-line distance between two points",
+                            "The maximum height reached by an object",
+                            "The horizontal distance traveled before impact"
+                        ]
+                    },
+                    {
+                        "question": "What role does friction play in a projectile’s trajectory?",
+                        "answer": "Friction acts against motion, reducing range and height",
+                        "wrongAnswers": [
+                            "Friction increases the speed of the projectile",
+                            "Friction has no effect on trajectory",
+                            "Friction provides an upward force"
+                        ]
+                    },
+                    {
+                        "question": "How does the formula for projectile motion change when friction is removed?",
+                        "answer": "The standard equations of motion under constant acceleration apply without air resistance",
+                        "wrongAnswers": [
+                            "The motion becomes circular",
+                            "The motion becomes irregular and unpredictable",
+                            "The projectile comes to a stop immediately"
                         ]
                     }
                 ]
