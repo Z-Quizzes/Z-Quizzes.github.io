@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is the center of oscillation in a compound pendulum?",
+        "options": [
+            "The point where the pendulum is suspended from",
+            "The point where the entire weight of the pendulum acts",
+            "The point where, if the entire mass were concentrated, the time period would remain unchanged",
+            "The point at which a pendulum stops oscillating"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What defines the center of percussion of a pendulum?",
+        "options": [
+            "The point of maximum oscillation",
+            "The point at which the pendulum is suspended",
+            "The point where an impact causes maximum force at the pivot",
+            "The point where an impact does not cause a reactive force at the pivot"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "What is the center of suspension in a pendulum?",
+        "options": [
+            "The point where the pendulum's mass is concentrated",
+            "The point where the pendulum is hung and oscillates about",
+            "The point of equilibrium in oscillatory motion",
+            "The point of maximum amplitude"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the center of mass of a body?",
+        "options": [
+            "The point where all gravitational forces cancel out",
+            "The point from which the pendulum hangs",
+            "The point where the entire mass can be considered concentrated for translational motion",
+            "The geometric center of the object"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "How is the center of gravity best defined?",
+        "options": [
+            "The point where the gravitational field is strongest",
+            "The point at which the entire weight of the body acts for analyzing gravitational effects",
+            "The same as the center of oscillation",
+            "The point where net torque is zero"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following statements best explains why Kater's Pendulum is considered better than a Bar Pendulum for measuring gravity?",
+        "options": [
+            "Kater's Pendulum is shorter and lighter than a Bar Pendulum, making it easier to handle.",
+            "Kater's Pendulum eliminates the effects of air resistance and friction through knife-edge suspension and reversibility, leading to more accurate measurements.",
+            "Bar Pendulum is more accurate because it has fewer components.",
+            "Kater's Pendulum is better because it is simpler to construct and use."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the primary purpose of Kater's Pendulum?",
+        "options": [
+            "To measure the time period of a simple pendulum",
+            "To measure the acceleration due to gravity with high precision",
+            "To demonstrate the principles of oscillation",
+            "To compare different types of pendulums"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the main advantage of using Kater's Pendulum over a simple pendulum?",
+        "options": [
+            "It can be used in any environment without adjustments.",
+            "It provides a more accurate measurement of gravitational acceleration by allowing for adjustments to eliminate errors.",
+            "It is easier to set up and requires less space.",
+            "It can be used to measure other physical constants."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What defines a simple pendulum?",
+        "options": [
+            "A rigid body oscillating about a horizontal axis",
+            "A heavy particle suspended from a fixed support by a light inextensible string",
+            "A pendulum with mass distributed along its length",
+            "A system of pendulums of varying lengths connected to a bar"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following best describes a compound pendulum?",
+        "options": [
+            "A mass on a string swinging in a circular path",
+            "A particle suspended from a light string",
+            "A rigid body oscillating about a horizontal axis in a vertical plane",
+            "A set of pendulums transferring energy to each other"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What distinguishes a compound pendulum from a simple pendulum?",
+        "options": [
+            "It swings faster than a simple pendulum",
+            "It has mass distributed along its length and a moment of inertia",
+            "It uses a spring instead of a string",
+            "It oscillates in a horizontal rather than a vertical plane"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is Barton’s Pendulum known for?",
+        "options": [
+            "Its oscillation in a conical path",
+            "Using a spring for its motion",
+            "Having multiple pendulums of varying lengths transferring energy through a common bar",
+            "Being a rigid body with a fixed pivot point"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What describes a conical pendulum?",
+        "options": [
+            "A pendulum that oscillates in a straight line",
+            "A mass on a string that swings in horizontal circles, tracing a cone",
+            "A pendulum system used to transfer energy among multiple masses",
+            "A heavy particle on a rigid rod swinging back and forth"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is a reason why Kater's Pendulum is considered more accurate than a Bar Pendulum for measuring gravity?",
+        "options": [
+            "It is shorter in length and swings faster",
+            "It is easier to construct and calibrate",
+            "It eliminates effects of air resistance and friction using a knife-edge suspension and reversible design",
+            "It uses electronic sensors for precise timing"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Why is Kater’s Pendulum referred to as a 'reversible pendulum'?",
+        "options": [
+            "It oscillates in both vertical and horizontal planes",
+            "It uses a reversible magnet system for calibration",
+            "It can be swung from two pivot points and the periods of oscillation are the same",
+            "It reverses its direction automatically after every swing"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the 'effective length' in Kater's Pendulum?",
+        "options": [
+            "The total height from the pivot to the ground",
+            "The distance between the center of oscillation and the center of suspension",
+            "The length of the metal rod used in the pendulum",
+            "The arc length traced by the pendulum's motion"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "How does Kater’s Pendulum allow for accurate measurement of gravity without knowing the exact center of mass?",
+        "options": [
+            "By using a digital sensor to detect motion",
+            "By using a perfectly uniform rod",
+            "By ensuring the same period of oscillation from both pivot points and using the distance between them",
+            "By suspending it in a vacuum chamber"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What must be measured in Kater’s Pendulum to calculate the acceleration due to gravity accurately?",
+        "options": [
+            "The weight and volume of the pendulum",
+            "The air resistance and damping force",
+            "The distance between the pivots and the periods of oscillation",
+            "The diameter of the pendulum’s rod"
+        ],
+        "answer": 3
+    }
+]

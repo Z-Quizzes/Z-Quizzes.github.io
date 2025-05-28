@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is a transverse wave?",
+        "options": [
+            "A wave where particles vibrate in the same direction as the wave propagation",
+            "A wave that travels only through gases",
+            "A wave where particles vibrate perpendicular to the direction of wave propagation",
+            "A wave that creates electrical current in a conductor"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In which media can transverse waves occur?",
+        "options": [
+            "Only in gases",
+            "Only in solids and liquids",
+            "Only in solids",
+            "In solids, liquids, and gases"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is a longitudinal wave?",
+        "options": [
+            "A wave where the medium particles vibrate perpendicular to the direction of wave propagation",
+            "A wave that propagates only through solids",
+            "A wave where the medium particles vibrate in the same direction as the wave propagation",
+            "A type of standing wave in a vacuum"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What type of wave is typically observed in air?",
+        "options": [
+            "Transverse wave",
+            "Longitudinal wave",
+            "Rotational wave",
+            "Gravitational wave"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What are the characteristics of longitudinal waves?",
+        "options": [
+            "Crest and trough formation",
+            "Occurs only in solids",
+            "Compression and rarefaction formation",
+            "Always produces loops"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of connecting a bulb in series with a solenoid?",
+        "options": [
+            "To brighten the waveform display",
+            "To eliminate magnetic interference",
+            "To provide resistance and prevent overheating of the coil",
+            "To amplify the current flow"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is a pulse in a string?",
+        "options": [
+            "A sustained oscillation in the medium",
+            "A localized disturbance that travels along the string",
+            "A continuous compression of the wave",
+            "The point where two waves meet and cancel each other"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is inductance(L)?",
+        "options": [
+            "A property that enhances electric current",
+            "The resistance of a wire to electricity",
+            "The property of a circuit that opposes changes in electric current",
+            "The measure of voltage in a circuit"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is mutual inductance?",
+        "options": [
+            "Resistance due to heat in one coil",
+            "The flow of current in opposite directions in the same coil",
+            "The generation of EMF in one coil due to a changing current in another coil",
+            "The simultaneous use of AC and DC current in a single circuit"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Why are only even numbers of loops observed in longitudinal wave arrangements?",
+        "options": [
+            "Due to phase difference in coil current",
+            "Because each complete vibration of the rod causes half a vibration in the string",
+            "Due to resonance with the transverse wave",
+            "Because of unequal tension in the string"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the correct condition for forming real loops in Melde’s experiment?",
+        "options": [
+            "The string must be very loose and the tension should be negligible",
+            "The frequency of the vibrator must match the natural frequency of the string (resonance condition)",
+            "The string should be clamped at both ends tightly",
+            "The wave must be longitudinal and travel in air"
+        ],
+        "answer": 2
+    }
+]
