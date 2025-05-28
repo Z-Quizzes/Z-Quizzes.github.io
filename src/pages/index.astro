@@ -1,0 +1,58 @@
+---
+import Layout from "../layouts/Layout.astro";
+import data from "../../public/data.json";
+
+// const response = await fetch('http://localhost:4321/data.json');
+// const data = await response.json();
+// console.log(data);
+
+interface Quizlet {
+  name: string;
+  questions: {
+    question: string;
+    answer: string;
+    wrongAnswers: string[];
+  }[];
+}
+
+interface QuizletCollection {
+  name: string;
+  quizlets: Quizlet[];
+}
+---
+
+<Layout>
+  <h1 class="text-3xl text-text mb-2 font-light">Quizlets Available</h1>
+  { data.map((item: QuizletCollection) =>  
+  <div class="item" x-data="{ open: false }">
+    <div @click="open = !open" class="flex items-center justify-between p-4 bg-background/30 rounded-lg shadow-md cursor-pointer transition-colors">
+      <h3 class="font-black text-2xl text-text/90">{item.name}</h3>
+      <svg
+        :class="{ 'rotate-180': open }"
+        class="w-5 h-5 transition-transform duration-300"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </div>
+    <div :class="{'grid-rows-[1fr]' : open}" class="mt-2 grid grid-rows-[0fr] bg-surface/50 rounded-b-lg transition-all duration-300">
+      <div class="overflow-hidden">
+          <ul class="mt-2 space-y-2 p-4">
+           {item.quizlets.map((quizlet: Quizlet) => 
+            <li class="cursor-pointer bg-surface p-4 text-xl text-text rounded-lg hover:bg-text/80 hover:text-background transition-colors">
+                <a href={`/quizlet/${quizlet.name}`} class="block">
+                { quizlet.name } 
+                </a>
+            </li>
+           )}
+          </ul>
+      </div>
+    </div>
+  </div> )}
+</Layout>

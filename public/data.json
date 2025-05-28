@@ -1,0 +1,130 @@
+[
+    {
+        "name": "PHY S101",
+        "quizlets": [
+            {
+                "name": "Trajectory of a Projectile",
+                "questions": [
+                    {
+                        "question": "What is the formula for the range of a projectile?",
+                        "answer": "R = (v^2 * sin(2θ)) / g",
+                        "wrongAnswers": [
+                            "R = (v^2 * cos(2θ)) / g",
+                            "R = (v * sin(θ)) / g",
+                            "R = (v^2 * tan(θ)) / g"
+                        ]
+                    },
+                    {
+                        "question": "How does air resistance affect projectile motion?",
+                        "answer": "Air resistance reduces the range and alters the trajectory.",
+                        "wrongAnswers": [
+                            "Air resistance has no effect on projectile motion.",
+                            "Air resistance increases the range of the projectile.",
+                            "Air resistance only affects vertical motion."
+                        ]
+                    },
+                    {
+                        "question": "What is the maximum height of a projectile?",
+                        "answer": "H = (v^2 * sin^2(θ)) / (2g)",
+                        "wrongAnswers": [
+                            "H = (v^2 * cos^2(θ)) / (2g)",
+                            "H = (v * sin(θ)) / g",
+                            "H = (v^2 * tan(θ)) / g"
+                        ]
+                    },
+                    {
+                        "question": "What factors affect the time of flight of a projectile?",
+                        "answer": "Initial velocity, launch angle, and acceleration due to gravity.",
+                        "wrongAnswers": [
+                            "Only the initial velocity affects the time of flight.",
+                            "The launch angle has no effect on the time of flight.",
+                            "Air resistance is the only factor affecting time of flight."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bifilar Suspension",
+                "questions": [
+                    {
+                        "question": "What is Bifilar Suspension?",
+                        "answer": "A system where an object is suspended by two parallel threads or wires of equal length.",
+                        "wrongAnswers": [
+                            "A system using magnetic fields to suspend objects",
+                            "A single wire suspension technique",
+                            "A method of suspending objects using electrostatic forces"
+                        ]
+                    },
+                    {
+                        "question": "What is the formula for the period of oscillation in a bifilar suspension?",
+                        "answer": "T = 2π√(I/mgd²)",
+                        "wrongAnswers": [
+                            "T = 2π√(m/k)",
+                            "T = 2π√(L/g)",
+                            "T = 2π√(md²/I)"
+                        ]
+                    },
+                    {
+                        "question": "How can bifilar suspension be used to determine moment of inertia?",
+                        "answer": "By measuring the period of oscillation and using the formula I = mgd²T²/4π²",
+                        "wrongAnswers": [
+                            "By measuring the angular velocity directly",
+                            "By calculating the torque applied to the system",
+                            "By determining the resonant frequency of the system"
+                        ]
+                    },
+                    {
+                        "question": "What happens to the period of oscillation if the separation between the threads is increased?",
+                        "answer": "The period decreases",
+                        "wrongAnswers": [
+                            "The period increases",
+                            "The period remains unchanged",
+                            "The period becomes zero"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Frequency of AC Mains by Melde's Method",
+                "questions": [
+                    {
+                        "question": "What is Melde's method primarily used for?",
+                        "answer": "To determine the frequency of AC current using standing waves in a string",
+                        "wrongAnswers": [
+                            "To measure the voltage of AC current",
+                            "To calculate resistance in electrical circuits",
+                            "To determine the wavelength of light"
+                        ]
+                    },
+                    {
+                        "question": "In Melde's method, what is the relationship between the frequency of vibration and the length of the loop?",
+                        "answer": "f = v/2L, where v is the wave velocity and L is the length of the loop",
+                        "wrongAnswers": [
+                            "f = 2Lv",
+                            "f = L/v",
+                            "f = v²/L"
+                        ]
+                    },
+                    {
+                        "question": "What is the principle behind Melde's experiment?",
+                        "answer": "An alternating current in a wire placed in a magnetic field creates mechanical vibrations of the same frequency",
+                        "wrongAnswers": [
+                            "Electromagnetic induction creates standing waves",
+                            "Resonance occurs at specific frequencies determined by the power supply",
+                            "AC current directly vibrates the string through electrical attraction"
+                        ]
+                    },
+                    {
+                        "question": "How does tension in the string affect the frequency in Melde's experiment?",
+                        "answer": "Increasing tension increases the frequency of standing waves for a given length",
+                        "wrongAnswers": [
+                            "Tension has no effect on the frequency",
+                            "Increasing tension decreases the frequency",
+                            "Tension only affects the amplitude, not the frequency"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

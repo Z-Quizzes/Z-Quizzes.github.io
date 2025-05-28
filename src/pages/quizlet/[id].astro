@@ -1,0 +1,90 @@
+---
+import data from "../../../public/data.json";
+import Layout from "../../layouts/Layout.astro";
+
+const { id } = Astro.params;
+console.log("Quizlet ID:", id);
+
+interface Quizlet {
+  name: string;
+  questions: {
+    question: string;
+    answer: string;
+    wrongAnswers: string[];
+  }[];
+}
+
+const currentQuizlet: Quizlet = data
+  .flatMap((collection) => collection.quizlets)
+  .find((quizlet) => quizlet.name === id)!;
+
+const timerData = `
+{
+  time: 5,
+  interval: null,
+  start() {
+    this.interval = setInterval(() => {
+      if (this.time > 0) {
+        this.time--
+      } else {
+        clearInterval(this.interval)
+        this.onFinish()
+      }
+    }, 1000)
+  },
+  onFinish() {
+    alert('⏰ Time’s up!')
+  }
+}
+`;
+
+// All Quizlet names must be unique across all collections
+export async function getStaticPaths() {
+  return data
+    .map((item) =>
+      item.quizlets.map((quizlet) => ({
+        params: { id: quizlet.name },
+      }))
+    )
+    .flat();
+}
+---
+
+<Layout>
+  <div class="max-w-xl mx-auto">
+    <h1 class="text-3xl text-text mb-2 font-light">
+      {currentQuizlet?.name || "Quizlet Not Found"}
+    </h1>
+    <h3 x-data={timerData} x-init="start()">
+      Time Left: <div x-text="time"></div>
+    </h3>
+    {
+      currentQuizlet ? (
+        <div class="">
+          {currentQuizlet.questions.map((question, index) => (
+            <div class="mb-4 p-8 bg-surface/40 rounded-lg shadow-md">
+              <h2 class="text-xl font-semibold text-text mb-2">
+                {index + 1}. {question.question}
+              </h2>
+              <ul class="list-none pl-5">
+                {(() => {
+                  const options = [question.answer, ...question.wrongAnswers];
+                  // Shuffle the options
+                  const shuffledOptions = [...options].sort(
+                    () => Math.random() - 0.5
+                  );
+                  return shuffledOptions.map((option) => (
+                    <li class="mb-2 p-3 py-4 bg-primary/10 cursor-pointer text-text rounded text-lg">
+                      {option}
+                    </li>
+                  ));
+                })()}
+              </ul>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p class="text-red-500">Quizlet not found.</p>
+      )
+    }
+  </div>
