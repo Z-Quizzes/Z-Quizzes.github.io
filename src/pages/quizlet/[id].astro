@@ -20,21 +20,23 @@ const currentQuizlet: Quizlet = data
 
 const timerData = `
 {
-  time: 5,
+  time: 10,
+  fullTime: 10,
   interval: null,
+  finished: false,
   start() {
     this.interval = setInterval(() => {
       if (this.time > 0) {
-        this.time--
+        this.time--;
       } else {
-        clearInterval(this.interval)
-        this.onFinish()
+        clearInterval(this.interval);
+        this.finished = true;
+        const event = new CustomEvent('timerfinish');
+        document.dispatchEvent(event);
       }
-    }, 1000)
+    }, 1000);
   },
-  onFinish() {
-    alert('⏰ Time’s up!')
-  }
+
 }
 `;
 
@@ -51,40 +53,152 @@ export async function getStaticPaths() {
 ---
 
 <Layout>
-  <div class="max-w-xl mx-auto">
+  <div x-data="{currentQuestion: 0, streak: 0, reviewTime: false}" class="main-wrapper max-w-xl mx-auto">
     <h1 class="text-3xl text-text mb-2 font-light">
       {currentQuizlet?.name || "Quizlet Not Found"}
     </h1>
-    <h3 x-data={timerData} x-init="start()">
-      Time Left: <div x-text="time"></div>
-    </h3>
     {
       currentQuizlet ? (
-        <div class="">
-          {currentQuizlet.questions.map((question, index) => (
-            <div class="mb-4 p-8 bg-surface/40 rounded-lg shadow-md">
-              <h2 class="text-xl font-semibold text-text mb-2">
-                {index + 1}. {question.question}
-              </h2>
-              <ul class="list-none pl-5">
-                {(() => {
-                  const options = [question.answer, ...question.wrongAnswers];
-                  // Shuffle the options
-                  const shuffledOptions = [...options].sort(
-                    () => Math.random() - 0.5
-                  );
-                  return shuffledOptions.map((option) => (
-                    <li class="mb-2 p-3 py-4 bg-primary/10 cursor-pointer text-text rounded text-lg">
-                      {option}
-                    </li>
-                  ));
-                })()}
-              </ul>
-            </div>
-          ))}
-        </div>
+        <>
+          <div class="flex justify-between">
+            <h3 class="clock"  x-data={timerData} x-init="start()">
+              Time Left: <span x-text="reviewTime ? 'Quiz Ended' : time" />
+            </h3>
+            <h3 class="flex items-center mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="size-5 inline-block text-text mr-2"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M13.5 4.938a7 7 0 1 1-9.006 1.737c.202-.257.59-.218.793.039.278.352.594.672.943.954.332.269.786-.049.773-.476a5.977 5.977 0 0 1 .572-2.759 6.026 6.026 0 0 1 2.486-2.665c.247-.14.55-.016.677.238A6.967 6.967 0 0 0 13.5 4.938ZM14 12a4 4 0 0 1-4 4c-1.913 0-3.52-1.398-3.91-3.182-.093-.429.44-.643.814-.413a4.043 4.043 0 0 0 1.601.564c.303.038.531-.24.51-.544a5.975 5.975 0 0 1 1.315-4.192.447.447 0 0 1 .431-.16A4.001 4.001 0 0 1 14 12Z"
+                  clip-rule="evenodd"
+                />
+                <span class="font-semibold text-text" x-text="streak"></span>
+              </svg>
+            </h3>
+          </div>
+          <div class="">
+            {currentQuizlet.questions.map((question, index) => (
+              <div 
+              :class=`{'hidden' :  (currentQuestion != ${index}) &&  (!reviewTime)}`
+              class=" question-box mb-4 p-8 bg-surface/40 rounded-lg shadow-md"
+              data-key=`${index}`>
+                <h2 class="text-xl font-semibold text-text mb-2">
+                  {index + 1}. {question.question}
+                </h2>
+                <ul x-data="{clicked: false}" class="list-none pl-5">
+                  {(() => {
+                    const options = [question.answer, ...question.wrongAnswers];
+                    // Shuffle the options
+                    const shuffledOptions = [...options].sort(
+                      () => Math.random() - 0.5
+                    );
+                    return shuffledOptions.map((option) => (
+                      <li 
+                       @click="if (!clicked) $dispatch('lockedAnswer', {el: $el, id: currentQuestion}); clicked = true;" 
+                       class="mb-2 p-3 py-4 bg-primary/10 cursor-pointer text-text rounded text-lg hover:bg-accent hover:text-background transition-colors">
+                        {option}
+                      </li>
+                    ));
+                  })()}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </>
       ) : (
         <p class="text-red-500">Quizlet not found.</p>
       )
     }
   </div>
+
+  <style is:global>
+    ul:has(li.correct, li.incorrect) li:not(.correct, .incorrect):hover {
+      background-color: color-mix(in oklab, #F57C00 10%, transparent)  ;    color: #4E342E;
+    }
+    .correct {
+      background-color: #4CAF50 ; 
+      color: #FFF8F1; 
+    }
+    .incorrect {
+      background-color: #E53935; 
+      color: #FFF8F1; 
+    }
+  </style>
+
+<script define:vars={{ currentQuizlet }}>
+document.addEventListener("alpine:init", () => {
+Alpine.nextTick(() => {
+  const mainWrapper = document.querySelector(".main-wrapper[x-data]");
+  const clockElement = mainWrapper.querySelector(".clock");
+  const state = Alpine.$data(mainWrapper);
+  const clockState = Alpine.$data(clockElement);
+
+
+  function nextQuestion() {
+  
+    if (clockState.interval) {
+      clearInterval(clockState.interval);
+      clockState.time = clockState.fullTime;
+      clockState.finished = false;
+      clockState.start();
+    }
+
+    const currentQuestion = state.currentQuestion;
+    if (currentQuestion < currentQuizlet.questions.length - 1) {
+      state.currentQuestion++;
+    } else {
+      state.reviewTime = true;
+    }
+  }
+
+  document.addEventListener("lockedAnswer", (e) => {
+
+    console.log("Current Quizlet:", currentQuizlet);
+
+    if (
+      e.detail.el.innerText === currentQuizlet.questions[e.detail.id].answer
+    ) {
+      e.detail.el.classList.add("correct");
+      state.streak++;
+    } else {
+      state.streak = 0;
+      e.detail.el.classList.add("incorrect");
+
+      e.detail.el.parentElement.querySelectorAll("li").forEach((el) => {
+        if (el.innerText === currentQuizlet.questions[e.detail.id].answer) {
+          el.classList.add("correct");
+        }
+      });
+    }
+
+    clockState.interval && clearInterval(clockState.interval);
+
+    setTimeout(nextQuestion, 1000);
+  });
+
+  document.addEventListener("timerfinish", (e) => {
+
+    const currentQuestion = state.currentQuestion;
+    const optionElements = mainWrapper.querySelectorAll(
+      `.question-box[data-key="${currentQuestion}"] li`
+    );
+    optionElements.forEach((el) => {
+      el.classList.add("incorrect");
+      if (el.innerText == currentQuizlet.questions[currentQuestion].answer) {
+        el.classList.remove("incorrect");
+        el.classList.add("correct");
+      }
+    });
+
+    state.streak = 0;
+    setTimeout(nextQuestion, 1000);
+  });
+}); 
+});
+</script>
+
+</Layout>
