@@ -1,0 +1,43 @@
+[
+    {
+      "question": "What is a projectile?",
+      "options": [
+        "An object that generates its own thrust in the air",
+        "An object that moves in a straight line without acceleration",
+        "An object thrown into space upon which the only acting force is gravity",
+        "A stationary object in equilibrium"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is a trajectory?",
+      "options": [
+        "The straight-line distance between two points",
+        "The path followed by a projectile under the influence of gravity",
+        "The maximum height reached by an object",
+        "The horizontal distance traveled before impact"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What role does friction play in a projectile’s trajectory?",
+      "options": [
+        "Friction increases the speed of the projectile",
+        "Friction has no effect on trajectory",
+        "Friction provides an upward force",
+        "Friction acts against motion, reducing range and height"
+      ],
+      "answer": 4
+    },
+    {
+      "question": "How does the formula for projectile motion change when friction is removed?",
+      "options": [
+        "The motion becomes circular",
+        "The motion becomes irregular and unpredictable",
+        "The standard equations of motion under constant acceleration apply without air resistance",
+        "The projectile comes to a stop immediately"
+      ],
+      "answer": 3
+    }
+  ]
+  

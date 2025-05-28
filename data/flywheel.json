@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is the moment of inertia?",
+        "options": [
+            "The force required to stop a rotating object",
+            "The distance from the center of mass to the pivot point",
+            "The property by which a body resists changes in its rotational motion about an axis",
+            "The speed of rotation of an object"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following expressions correctly defines the moment of inertia?",
+        "options": [
+            "I = mr",
+            "I = ∑miri²",
+            "I = F × r",
+            "I = mv²"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the physical significance of moment of inertia?",
+        "options": [
+            "It determines how fast an object moves linearly",
+            "It replaces torque in the equation of motion",
+            "It defines how much torque is required to rotate or stop an object",
+            "It measures the mass of an object"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the radius of gyration?",
+        "options": [
+            "The radius of a circle with the same area as the object",
+            "The distance from the axis where all mass can be concentrated to produce the same moment of inertia",
+            "The maximum radius of the object",
+            "The radius of a disc spinning at maximum velocity"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following best defines the Theorem of Parallel Axes?",
+        "options": [
+            "The moment of inertia of any axis is the difference between two perpendicular axes",
+            "I = Icm + Ma², where Icm is moment of inertia about center of mass axis",
+            "I = Icm − Ma²",
+            "I = M × r × v"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What does the Theorem of Perpendicular Axes state?",
+        "options": [
+            "Iz = Ix + Iy for a 3D body",
+            "Iz = Ix − Iy for a solid sphere",
+            "Iz = Ix + Iy for a planar body",
+            "Ix = Iy = 0 for symmetric objects"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What principle does a flywheel operate on?",
+        "options": [
+            "Conservation of mass",
+            "Newton’s third law of motion",
+            "Conservation of angular momentum and kinetic energy storage",
+            "Law of inertia"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the role of the crank in a flywheel system?",
+        "options": [
+            "To store energy in the flywheel",
+            "To stop the flywheel from rotating",
+            "To apply torque and cause the flywheel to rotate",
+            "To support the flywheel's structure"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the function of the shaft in a flywheel setup?",
+        "options": [
+            "It generates energy for the system",
+            "It acts as a brake for the flywheel",
+            "It serves as the axis on which the flywheel rotates",
+            "It stores compressed air for the flywheel"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "How does a flywheel store energy?",
+        "options": [
+            "By compressing gas inside a cylinder",
+            "By increasing its temperature",
+            "By spinning a mass at high speed to store kinetic energy",
+            "By converting electrical energy into light"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is one practical use of a flywheel in stationary engines?",
+        "options": [
+            "To measure fuel efficiency",
+            "To control engine temperature",
+            "To smooth out the motion by storing and releasing energy",
+            "To reduce the weight of the engine"
+        ],
+        "answer": 3
+    }
+]
