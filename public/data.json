@@ -1108,6 +1108,65 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Wheel Dynamics",
+                "questions": [
+                    {
+                        "question": "What does a violent jerk in a wheel system indicate?",
+                        "answer": "It indicates the rim is disfigured and each point is not at 90 degrees to the axle axis.",
+                        "wrongAnswers": [
+                            "The tire pressure is too high.",
+                            "The spokes are too tight.",
+                            "The hub is lubricated improperly."
+                        ]
+                    },
+                    {
+                        "question": "What causes front wheel wobble in a bicycle?",
+                        "answer": "It can occur when the front wheel system builds up energy and overcorrects.",
+                        "wrongAnswers": [
+                            "Loose handlebars only.",
+                            "Low tire pressure alone.",
+                            "Worn brake pads."
+                        ]
+                    },
+                    {
+                        "question": "What is a common cause of back wheel shaking?",
+                        "answer": "It can be caused by worn out rear wheel bearings, an insecure axle, or a buckled wheel rim.",
+                        "wrongAnswers": [
+                            "Excessive air in the front tire.",
+                            "Loose front fork.",
+                            "Bent pedals."
+                        ]
+                    },
+                    {
+                        "question": "What does it mean when the front tire swings slightly to the right and then to the left?",
+                        "answer": "It is a type of wobble caused by instability in the front wheel.",
+                        "wrongAnswers": [
+                            "It means the tire is fully balanced.",
+                            "The rear wheel is under-inflated.",
+                            "The frame is misaligned."
+                        ]
+                    },
+                    {
+                        "question": "What is one effect of brackets in a wheel system?",
+                        "answer": "They influence the stability and alignment of the wheel assembly.",
+                        "wrongAnswers": [
+                            "They determine tire pressure.",
+                            "They change the color of the rim.",
+                            "They are used to slow down the vehicle."
+                        ]
+                    },
+                    {
+                        "question": "How do wheels help in daily life?",
+                        "answer": "They allow the rider to roll over the ground with great speed and efficiency.",
+                        "wrongAnswers": [
+                            "They are mainly for decoration.",
+                            "They help in lifting heavy weights vertically.",
+                            "They store fuel energy."
+                        ]
+                    }
+                ]
             }
         ]
     }
