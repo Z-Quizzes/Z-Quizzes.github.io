@@ -3,3 +3,21 @@
 body {
     font-family: 'Quicksand', sans-serif;
 }
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.4s forwards;
+}
+.fade-out {
+  opacity: 1;
+  animation: fadeOut 0.4s forwards;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+@keyframes fadeOut {
+  to { opacity: 0; }
+}
+.correct, .incorrect {
+  transition: background-color 0.3s, color 0.3s;
+}
