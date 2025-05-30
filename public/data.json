@@ -536,7 +536,7 @@
                 ]
             },
             {
-                "name": "Frequency Of Ac Mains",
+                "name": "Frequency Of A.C. Mains by Melde's Method",
                 "questions": [
                     {
                         "question": "What is a transverse wave?",
@@ -1110,7 +1110,7 @@
                 ]
             },
             {
-                "name": "Wheel Dynamics",
+                "name": "Bicycle Wheel",
                 "questions": [
                     {
                         "question": "What does a violent jerk in a wheel system indicate?",
@@ -1164,6 +1164,1000 @@
                             "They are mainly for decoration.",
                             "They help in lifting heavy weights vertically.",
                             "They store fuel energy."
+                        ]
+                    }
+                ]
+            }
+        ]
+        "name": "PHY S102",
+        "quizlets": [
+            {
+                "name": "Ballistic Galvanometer",
+                "questions": [
+                    {
+                        "question": "What is the name of the string by which the coil is suspended in a ballistic galvanometer?",
+                        "answer": "Phosphor bronze strip",
+                        "wrongAnswers": [
+                            "Copper wire",
+                            "Aluminium strip",
+                            "Steel thread"
+                        ]
+                    },
+                    {
+                        "question": "What is the ballistic constant in a ballistic galvanometer?",
+                        "answer": "A constant which, when multiplied by the first throw of the galvanometer, gives the amount of charge passed",
+                        "wrongAnswers": [
+                            "A constant used to measure resistance",
+                            "A factor for adjusting the magnetic field strength",
+                            "A value used to calibrate the scale of the galvanometer"
+                        ]
+                    },
+                    {
+                        "question": "What is a ballistic galvanometer used for?",
+                        "answer": "Estimating the quantity of charge flow through it",
+                        "wrongAnswers": [
+                            "Measuring current in a circuit",
+                            "Calculating voltage drops",
+                            "Detecting magnetic field direction"
+                        ]
+                    },
+                    {
+                        "question": "What is the purpose of the mirror in a ballistic galvanometer?",
+                        "answer": "To record the deflection of the coil using a lamp and scale arrangement",
+                        "wrongAnswers": [
+                            "To increase the magnetic flux",
+                            "To reflect heat from the coil",
+                            "To help balance the galvanometer"
+                        ]
+                    },
+                    {
+                        "question": "What is the use of a Morse key in the setup with a ballistic galvanometer?",
+                        "answer": "To charge a standard condenser and then discharge it through the galvanometer",
+                        "wrongAnswers": [
+                            "To amplify the current signal",
+                            "To switch the galvanometer on and off",
+                            "To measure resistance in the circuit"
+                        ]
+                    },
+                    {
+                        "question": "What is the function of the tapping (or damping) key in a ballistic galvanometer?",
+                        "answer": "To stop the motion of the coil",
+                        "wrongAnswers": [
+                            "To increase the deflection",
+                            "To reverse the current direction",
+                            "To calibrate the galvanometer"
+                        ]
+                    },
+                    {
+                        "question": "Why is a soft iron core placed within the coil of a ballistic galvanometer?",
+                        "answer": "To increase the magnetic flux",
+                        "wrongAnswers": [
+                            "To reduce electrical resistance",
+                            "To act as a capacitor",
+                            "To protect the coil from heat"
+                        ]
+                    },
+                    {
+                        "question": "What is the sensitivity of a ballistic galvanometer?",
+                        "answer": "The charge sensitivity is 2/T times the current sensitivity and is the reciprocal of the ballistic constant",
+                        "wrongAnswers": [
+                            "It measures how fast the coil moves",
+                            "It is the same as voltage sensitivity",
+                            "It depends only on the magnetic field"
+                        ]
+                    },
+                    {
+                        "question": "Why is a spring used in a ballistic galvanometer?",
+                        "answer": "To provide restoring torque to the coil",
+                        "wrongAnswers": [
+                            "To increase current flow",
+                            "To balance the galvanometer",
+                            "To reduce magnetic interference"
+                        ]
+                    },
+                    {
+                        "question": "What is a condenser and what is its use?",
+                        "answer": "It is a device that stores electric charge using two conductors with equal and opposite charges",
+                        "wrongAnswers": [
+                            "A device used to amplify electric signals",
+                            "A tool to convert electric energy into heat",
+                            "A resistor used for voltage control"
+                        ]
+                    },
+                    {
+                        "question": "What is logarithmic decrement in the context of a ballistic galvanometer?",
+                        "answer": "A measure accounting for the damping effect, which causes observed throw to be smaller than the true value",
+                        "wrongAnswers": [
+                            "A factor to increase the sensitivity",
+                            "A method of calibrating a galvanometer",
+                            "A technique to measure time delay"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Energy Band Gap by Four Probe Method",
+                "questions": [
+                    {
+                        "question": "What is a semiconductor?",
+                        "answer": "A material with electrical conductivity between a conductor and an insulator",
+                        "wrongAnswers": [
+                            "A perfect conductor of electricity",
+                            "A material that completely blocks electric current",
+                            "A type of metal used only in circuits"
+                        ]
+                    },
+                    {
+                        "question": "What is an energy band?",
+                        "answer": "A large number of closely spaced energy levels in a small energy range",
+                        "wrongAnswers": [
+                            "A region of vacuum between atoms",
+                            "The difference between conduction and valence band",
+                            "A band of light waves in the visible spectrum"
+                        ]
+                    },
+                    {
+                        "question": "What is the valence band?",
+                        "answer": "The highest energy band filled with valence electrons",
+                        "wrongAnswers": [
+                            "The lowest unfilled energy band",
+                            "A band above the conduction band",
+                            "A band containing only free electrons"
+                        ]
+                    },
+                    {
+                        "question": "What is the conduction band?",
+                        "answer": "The lowest unfilled allowed energy band next to the valence band",
+                        "wrongAnswers": [
+                            "The highest filled energy band",
+                            "A forbidden region in semiconductors",
+                            "The band containing holes only"
+                        ]
+                    },
+                    {
+                        "question": "What is the energy band gap or forbidden energy gap?",
+                        "answer": "The gap between the top of the valence band and bottom of the conduction band where no electron states exist",
+                        "wrongAnswers": [
+                            "A band of overlapping energy levels",
+                            "A gap inside the conduction band",
+                            "The region occupied by valence electrons"
+                        ]
+                    },
+                    {
+                        "question": "What is Fermi level and Fermi Energy?",
+                        "answer": "The highest energy level filled with electrons at absolute zero; its energy is Fermi Energy",
+                        "wrongAnswers": [
+                            "The lowest energy state in the conduction band",
+                            "The energy difference between two atoms",
+                            "The maximum kinetic energy of moving electrons"
+                        ]
+                    },
+                    {
+                        "question": "What are holes?",
+                        "answer": "The absence of an electron in the bond of a covalently bonded crystal",
+                        "wrongAnswers": [
+                            "Free protons inside a semiconductor",
+                            "Vacuum regions in the lattice",
+                            "Electrons with negative charge"
+                        ]
+                    },
+                    {
+                        "question": "What are intrinsic and extrinsic semiconductors?",
+                        "answer": "Intrinsic are pure semiconductors; extrinsic are doped to form p-type or n-type materials",
+                        "wrongAnswers": [
+                            "Intrinsic are metals; extrinsic are insulators",
+                            "Intrinsic have impurities; extrinsic are pure",
+                            "Intrinsic semiconductors cannot conduct electricity"
+                        ]
+                    },
+                    {
+                        "question": "What is a p-type and n-type semiconductor?",
+                        "answer": "p-type has trivalent impurities with holes as majority carriers; n-type has pentavalent impurities with electrons as majority carriers",
+                        "wrongAnswers": [
+                            "p-type conducts only heat; n-type conducts only electricity",
+                            "p-type is always negative; n-type is always positive",
+                            "Both have only electrons as charge carriers"
+                        ]
+                    },
+                    {
+                        "question": "What are p-n-p and n-p-n transistors?",
+                        "answer": "p-n-p has an n-layer between two p-layers; n-p-n has a p-layer between two n-layers",
+                        "wrongAnswers": [
+                            "p-n-p has holes only; n-p-n has electrons only",
+                            "Both are made from pure semiconductors",
+                            "They are types of resistors"
+                        ]
+                    },
+                    {
+                        "question": "What is the use or working of a four-probe method in the instrument?",
+                        "answer": "Outer probes pass current; inner probes measure voltage using a voltmeter",
+                        "wrongAnswers": [
+                            "All probes are used to measure resistance directly",
+                            "All four probes are used for voltage measurement",
+                            "Probes measure magnetic field instead of voltage"
+                        ]
+                    },
+                    {
+                        "question": "What is the formula for measuring resistivity using four-probe method?",
+                        "answer": "ρ = (V/I) × 2πs for thick samples; modified by a factor F(w/s) for thin samples",
+                        "wrongAnswers": [
+                            "ρ = VI × s",
+                            "ρ = V + I × s",
+                            "ρ = (I/V) × s²"
+                        ]
+                    },
+                    {
+                        "question": "How is the band gap of a semiconductor calculated?",
+                        "answer": "Using the formula ln ρ = E₉ / 2kT and plotting ln ρ versus 1/T",
+                        "wrongAnswers": [
+                            "By directly measuring voltage across the sample",
+                            "Using the formula E = mc²",
+                            "By calculating average energy of conduction electrons"
+                        ]
+                    },
+                    {
+                        "question": "Why doesn’t using the correction factor in resistivity calculations affect the band gap value?",
+                        "answer": "Because the correction factor is constant and does not affect the slope of the ln ρ vs 1/T graph",
+                        "wrongAnswers": [
+                            "Because the correction factor is always zero",
+                            "Because it changes the shape of the energy band",
+                            "Because it affects only the temperature, not resistivity"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Plane Transmission Diffraction Grating",
+                "questions": [
+                    {
+                        "question": "What is grating?",
+                        "answer": "An arrangement of many close, parallel, equidistant slits separated by opaque regions",
+                        "wrongAnswers": [
+                            "A single slit used to pass light",
+                            "A transparent sheet with no pattern",
+                            "A reflective surface used in telescopes"
+                        ]
+                    },
+                    {
+                        "question": "What is grating element?",
+                        "answer": "The spacing (a+b) between adjacent slits in a diffraction grating",
+                        "wrongAnswers": [
+                            "The width of the transparent slit only",
+                            "The distance between two opaque regions",
+                            "The number of slits per millimeter"
+                        ]
+                    },
+                    {
+                        "question": "What is diffraction?",
+                        "answer": "Bending of light at an obstacle or aperture of size comparable to the light's wavelength",
+                        "wrongAnswers": [
+                            "Reflection of light from a surface",
+                            "Change in frequency of light in a medium",
+                            "Splitting of white light into colors"
+                        ]
+                    },
+                    {
+                        "question": "What are the two types of diffraction of light?",
+                        "answer": "Fresnel diffraction and Fraunhofer diffraction",
+                        "wrongAnswers": [
+                            "Constructive and destructive diffraction",
+                            "Visible and invisible diffraction",
+                            "Longitudinal and transverse diffraction"
+                        ]
+                    },
+                    {
+                        "question": "What is the resolving power of an instrument?",
+                        "answer": "Its ability to separate images of two close point objects",
+                        "wrongAnswers": [
+                            "Its ability to magnify objects",
+                            "The maximum angle it can detect",
+                            "Its ability to produce only one spectrum"
+                        ]
+                    },
+                    {
+                        "question": "What is the name of the eyepiece used?",
+                        "answer": "Ramsden’s eyepiece",
+                        "wrongAnswers": [
+                            "Galilean eyepiece",
+                            "Huygens eyepiece",
+                            "Compound eyepiece"
+                        ]
+                    },
+                    {
+                        "question": "Why can't the third-order spectrum be seen through the telescope?",
+                        "answer": "Because the maximum value of sin θ is 1, making the highest visible order less than 3",
+                        "wrongAnswers": [
+                            "Because the telescope cannot resolve colors",
+                            "Because the grating blocks higher-order spectra",
+                            "Because third-order light is absorbed by the grating"
+                        ]
+                    },
+                    {
+                        "question": "What is the main difference between the spectrum obtained by grating and that due to prism?",
+                        "answer": "Grating diffracts red most and violet least, reversing the color sequence compared to a prism",
+                        "wrongAnswers": [
+                            "Prism diffracts all colors equally",
+                            "Grating only allows blue and green to pass",
+                            "Both grating and prism give identical spectra"
+                        ]
+                    },
+                    {
+                        "question": "Which gives more intense spectrum—a prism or grating and why?",
+                        "answer": "Prism, because it concentrates all light into one spectrum",
+                        "wrongAnswers": [
+                            "Grating, because it reflects light back into the source",
+                            "Grating, because it produces multiple spectra",
+                            "Prism, because it absorbs less light than grating"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Polarimeter",
+                "questions": [
+                    {
+                        "question": "What is polarisation of waves?",
+                        "answer": "Restricting wave oscillations to one direction in the transverse plane",
+                        "wrongAnswers": [
+                            "Amplifying the wave's amplitude in all directions",
+                            "Reflecting the wave at a boundary",
+                            "Converting a longitudinal wave into a transverse wave"
+                        ]
+                    },
+                    {
+                        "question": "What is a polarimeter?",
+                        "answer": "A device used to measure the angle of optical rotation caused by an optically active substance",
+                        "wrongAnswers": [
+                            "An instrument that measures wave frequency",
+                            "A device that magnifies polarized light",
+                            "A tool for generating unpolarized light"
+                        ]
+                    },
+                    {
+                        "question": "What is the plane of polarization?",
+                        "answer": "The plane perpendicular to the plane of vibration and containing the direction of propagation",
+                        "wrongAnswers": [
+                            "The same as the plane of vibration",
+                            "A horizontal surface reflecting light",
+                            "A vertical surface parallel to the light beam"
+                        ]
+                    },
+                    {
+                        "question": "What is a Nicol prism and its function?",
+                        "answer": "An optical device based on double refraction, used to produce and analyze plane polarized light",
+                        "wrongAnswers": [
+                            "A glass prism used to reflect light",
+                            "A lens used to focus unpolarized light",
+                            "A device that converts sound waves to light"
+                        ]
+                    },
+                    {
+                        "question": "What are o-rays and e-rays?",
+                        "answer": "O-rays obey normal refraction laws with vibrations perpendicular to the plane of incidence; E-rays do not and have vibrations parallel to it",
+                        "wrongAnswers": [
+                            "Both rays follow Snell’s law identically",
+                            "E-rays are reflected, and O-rays are transmitted",
+                            "O-rays are longitudinal and E-rays are transverse"
+                        ]
+                    },
+                    {
+                        "question": "What is specific rotation?",
+                        "answer": "The angle of rotation of polarized light through a 1 dm tube of a 1 g/cm³ solution of an optically active substance",
+                        "wrongAnswers": [
+                            "The angle of light reflection from a prism",
+                            "The rate of wave oscillation per second",
+                            "The fixed angle light bends at any interface"
+                        ]
+                    },
+                    {
+                        "question": "What is Malus's Law?",
+                        "answer": "The transmitted intensity is proportional to the square of the cosine of the angle between the polariser and analyser axes",
+                        "wrongAnswers": [
+                            "Light always travels in a straight line",
+                            "The intensity doubles when two polarisers are aligned",
+                            "The intensity is constant regardless of the angle"
+                        ]
+                    },
+                    {
+                        "question": "What is Brewster’s Law?",
+                        "answer": "At a specific angle, reflected light is completely polarized when reflected and refracted rays are perpendicular",
+                        "wrongAnswers": [
+                            "Light is always polarized after reflection",
+                            "Polarized light cannot be refracted",
+                            "The reflection angle must be zero for polarization"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Newton's Rings",
+                "questions": [
+                    {
+                        "question": "What are coherent sources?",
+                        "answer": "Two sources that emit light waves of the same frequency with a constant phase difference",
+                        "wrongAnswers": [
+                            "Sources emitting light of different frequencies and random phase",
+                            "Two sources emitting unpolarized light",
+                            "Sources that reflect light in opposite directions"
+                        ]
+                    },
+                    {
+                        "question": "What is interference?",
+                        "answer": "The superposition of coherent waves causing redistribution of energy into constructive and destructive patterns",
+                        "wrongAnswers": [
+                            "The reflection of light at surfaces of different materials",
+                            "Absorption of light by a transparent medium",
+                            "Refraction of light through a convex lens"
+                        ]
+                    },
+                    {
+                        "question": "Why does a central dark spot appear in Newton's rings?",
+                        "answer": "Due to zero thickness at the point of contact and a λ/2 phase change upon reflection, causing destructive interference",
+                        "wrongAnswers": [
+                            "Because light is absorbed at the center",
+                            "Due to total internal reflection at the contact point",
+                            "Because of constructive interference at the center"
+                        ]
+                    },
+                    {
+                        "question": "Why are Newton’s rings circular?",
+                        "answer": "Because the air film between the lens and glass plate is circular and forms loci of constant thickness",
+                        "wrongAnswers": [
+                            "Because of the elliptical curvature of the lens",
+                            "Due to light diffraction at the lens edges",
+                            "Because of the prism effect of the glass plate"
+                        ]
+                    },
+                    {
+                        "question": "How does Newton’s rings pattern change with white light instead of sodium light?",
+                        "answer": "It produces colored fringes with a whitish central spot and less distinct rings farther out",
+                        "wrongAnswers": [
+                            "The rings disappear completely",
+                            "Only red fringes are visible",
+                            "The rings become sharper and more defined"
+                        ]
+                    },
+                    {
+                        "question": "Why is sodium often considered a single line source despite being a doublet?",
+                        "answer": "Because D1 and D2 lines have nearly equal wavelengths, producing superimposed rings that appear as from one wavelength",
+                        "wrongAnswers": [
+                            "Because D1 line is too weak to detect",
+                            "The spectrometer filters out the D2 line",
+                            "Only one line emits visible light"
+                        ]
+                    },
+                    {
+                        "question": "What are the approximate wavelengths of sodium D-lines?",
+                        "answer": "5890 Å and 5896 Å",
+                        "wrongAnswers": [
+                            "5461 Å and 5791 Å",
+                            "5000 Å and 5100 Å",
+                            "6120 Å and 6180 Å"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Prism Spectrometer",
+                "questions":[
+                {
+                    "question": "What is the angle of deviation?",
+                    "answer": "The angle of deviation is the angle between the incident ray and emergent ray.",
+                    "wrongAnswers": [
+                        "The angle between the incident ray and the normal",
+                        "The angle between the emergent ray and the prism base",
+                        "The angle of refraction inside the prism"
+                    ]
+                },
+                {
+                    "question": "What is angle of minimum deviation?",
+                    "answer": "It is the smallest possible angle of deviation for a prism, occurring when the angle of incidence equals the angle of emergence and the ray passes parallel to the base of the prism.",
+                    "wrongAnswers": [
+                        "It occurs when light passes undeviated through a prism",
+                        "It happens only when the prism angle is 90°",
+                        "It is the angle when total internal reflection occurs"
+                    ]
+                },
+                {
+                    "question": "What is dispersion?",
+                    "answer": "The phenomenon of splitting of white light into its component colours on passing through a refracting medium.",
+                    "wrongAnswers": [
+                        "The absorption of light into a prism",
+                        "The reflection of light at the surface of a prism",
+                        "The scattering of monochromatic light"
+                    ]
+                },
+                {
+                    "question": "What is angular dispersion?",
+                    "answer": "The angular separation between the two extreme colours (violet and red) in the spectrum.",
+                    "wrongAnswers": [
+                        "The bending of all colours at the same angle",
+                        "The deviation of light inside a prism",
+                        "The intensity difference between the spectral lines"
+                    ]
+                },
+                {
+                    "question": "What is dispersive power?",
+                    "answer": "It is the ratio of angular dispersion to the mean deviation, representing a prism material’s ability to separate different wavelengths.",
+                    "wrongAnswers": [
+                        "The power of a prism to focus light",
+                        "The amount of light absorbed by a prism",
+                        "The speed at which light travels through a medium"
+                    ]
+                },
+                {
+                    "question": "What does the formula i + i' = A + δ represent?",
+                    "answer": "It relates the angle of incidence and emergence to the angle of prism and the angle of deviation.",
+                    "wrongAnswers": [
+                        "It calculates the refractive index of the prism",
+                        "It measures the angle between the prism faces",
+                        "It determines the critical angle for total internal reflection"
+                    ]
+                },
+                {
+                    "question": "What does the equation r + r' = A indicate in prism optics?",
+                    "answer": "It shows that the sum of the internal angles of refraction equals the prism angle.",
+                    "wrongAnswers": [
+                        "It shows the relationship between angle of incidence and deviation",
+                        "It applies only to right-angled prisms",
+                        "It is used to calculate the angle of minimum deviation"
+                    ]
+                },
+                {
+                    "question": "What happens to a light ray passing through a prism?",
+                    "answer": "It bends towards the base of the prism due to refraction.",
+                    "wrongAnswers": [
+                        "It travels straight through without deviation",
+                        "It always bends away from the base",
+                        "It reflects back into the original medium"
+                    ]
+                },
+                {
+                    "question": "When is the deviation produced by a prism maximum?",
+                    "answer": "When the angle of incidence is 90 degrees.",
+                    "wrongAnswers": [
+                        "When the angle of incidence is 45 degrees",
+                        "At the angle of minimum deviation",
+                        "When the ray enters perpendicularly to the surface"
+                    ]
+                },
+                {
+                    "question": "Why is a prism set at minimum deviation for spectral analysis?",
+                    "answer": "To obtain a pure spectrum by avoiding overlapping of colours.",
+                    "wrongAnswers": [
+                        "To maximize the number of visible colours",
+                        "To reduce the intensity of light",
+                        "To reflect all light rays back"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Variation of Magnetic Field",
+            "questions": [
+                {
+                    "question": "What is magnetization?",
+                    "answer": "Magnetization is the magnetic moment produced per unit volume of a substance placed in a magnetizing field.",
+                    "wrongAnswers": [
+                        "The magnetic field generated by an external source",
+                        "The force acting on a magnetic dipole",
+                        "The electric field produced by a moving charge"
+                    ]
+                },
+                {
+                    "question": "What is magnetic intensity or magnetic field strength (H)?",
+                    "answer": "It is the strength of the external magnetic field used to magnetize a substance.",
+                    "wrongAnswers": [
+                        "The field produced inside the material",
+                        "The total magnetic flux in a loop",
+                        "The measure of the magnetic dipole moment"
+                    ]
+                },
+                {
+                    "question": "What is magnetic susceptibility (χ)?",
+                    "answer": "It is the ratio of intensity of magnetization (I) to the magnetic field strength (H).",
+                    "wrongAnswers": [
+                        "The product of I and H",
+                        "The difference between B and H",
+                        "The ratio of B to H"
+                    ]
+                },
+                {
+                    "question": "What is magnetic permeability (μ)?",
+                    "answer": "It is the constant of proportionality between magnetic field (B) and magnetic field strength (H).",
+                    "wrongAnswers": [
+                        "The ratio of magnetic flux to electric field",
+                        "The resistance to magnetic force",
+                        "The charge stored per unit magnetic field"
+                    ]
+                },
+                {
+                    "question": "Which substances are slightly magnetized in a direction opposite to the magnetic field?",
+                    "answer": "Diamagnetic substances",
+                    "wrongAnswers": [
+                        "Paramagnetic substances",
+                        "Ferromagnetic substances",
+                        "Electromagnetic substances"
+                    ]
+                },
+                {
+                    "question": "Which substances are slightly magnetized along the direction of the magnetic field?",
+                    "answer": "Paramagnetic substances",
+                    "wrongAnswers": [
+                        "Diamagnetic substances",
+                        "Ferromagnetic substances",
+                        "Superconducting materials"
+                    ]
+                },
+                {
+                    "question": "Which substances are highly magnetized along the direction of the magnetic field?",
+                    "answer": "Ferromagnetic substances",
+                    "wrongAnswers": [
+                        "Paramagnetic substances",
+                        "Diamagnetic substances",
+                        "Insulators"
+                    ]
+                },
+                {
+                    "question": "What is demagnetization?",
+                    "answer": "The loss of magnetization due to disturbance in the alignment of domains in a ferromagnetic material.",
+                    "wrongAnswers": [
+                        "The gain of magnetization through exposure to a magnetic field",
+                        "The destruction of magnetic poles",
+                        "The neutralization of electric charge"
+                    ]
+                },
+                {
+                    "question": "How can demagnetization occur?",
+                    "answer": "By heating or applying an alternating external field.",
+                    "wrongAnswers": [
+                        "By placing it in a vacuum",
+                        "By submerging it in water",
+                        "By connecting it to a battery"
+                    ]
+                },
+                {
+                    "question": "What is the geographic meridian?",
+                    "answer": "A vertical plane passing through the line joining the geographical north and south poles.",
+                    "wrongAnswers": [
+                        "A line perpendicular to the magnetic field",
+                        "The shortest distance between two longitudes",
+                        "A horizontal plane at the equator"
+                    ]
+                },
+                {
+                    "question": "What is the magnetic meridian?",
+                    "answer": "A vertical plane in the direction of the earth’s magnetic field.",
+                    "wrongAnswers": [
+                        "A plane perpendicular to the equator",
+                        "A horizontal line at the poles",
+                        "The line connecting magnetic north and south underground"
+                    ]
+                },
+                {
+                    "question": "What is the angle of declination?",
+                    "answer": "The acute angle between the magnetic meridian and the geographic meridian.",
+                    "wrongAnswers": [
+                        "The angle between the magnetic field and horizontal",
+                        "The angle between true north and east",
+                        "The angle of the earth's tilt"
+                    ]
+                },
+                {
+                    "question": "What is the angle of dip?",
+                    "answer": "The angle between the direction of earth’s magnetic field and the horizontal.",
+                    "wrongAnswers": [
+                        "The angle between north and south poles",
+                        "The latitude of the magnetic equator",
+                        "The angle between the magnetic and geographic poles"
+                    ]
+                },
+                {
+                    "question": "What is the horizontal component of earth’s magnetic field?",
+                    "answer": "It is the component of earth’s magnetic field in the horizontal direction at a place.",
+                    "wrongAnswers": [
+                        "The vertical field strength",
+                        "The total magnetic flux",
+                        "The angle of dip"
+                    ]
+                },
+                {
+                    "question": "What is a hysteresis curve?",
+                    "answer": "A graph between magnetization (I) and external magnetic field (H) for a ferromagnetic material.",
+                    "wrongAnswers": [
+                        "A graph of electric field vs current",
+                        "A graph of magnetic field vs time",
+                        "A graph of temperature vs resistance"
+                    ]
+                },
+                {
+                    "question": "What is coercivity?",
+                    "answer": "The magnetic field required in the opposite direction to reduce the magnetization to zero.",
+                    "wrongAnswers": [
+                        "The magnetic strength needed to saturate the material",
+                        "The electric field needed to produce magnetism",
+                        "The force between two magnetic poles"
+                    ]
+                },
+                {
+                    "question": "What is retentivity?",
+                    "answer": "The measure of remaining magnetization in a material after the external magnetic field is removed.",
+                    "wrongAnswers": [
+                        "The magnetic strength at maximum field",
+                        "The loss of magnetism due to temperature",
+                        "The angle between magnetization and external field"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Carry Foster's Bridge",
+            "questions": [
+                {
+                    "question": "Why is a Leclanché cell used in Carey Foster’s bridge experiments?",
+                    "answer": "Because it provides a steady and low current suitable for sensitive resistance measurements.",
+                    "wrongAnswers": [
+                        "Because it can store high voltage for long durations",
+                        "Because it charges faster than other cells",
+                        "Because it creates alternating current for bridges"
+                    ]
+                },
+                {
+                    "question": "Why is a battery cell not preferred over Leclanché cell in this experiment?",
+                    "answer": "Because battery cells may produce fluctuating or higher currents, affecting precision in bridge balance.",
+                    "wrongAnswers": [
+                        "Because they are not available in laboratories",
+                        "Because they only work with alternating current",
+                        "Because they cannot power any circuit"
+                    ]
+                },
+                {
+                    "question": "What is the principle behind the Wheatstone bridge?",
+                    "answer": "It works on the principle of null deflection where the ratio of resistances in two arms is equal.",
+                    "wrongAnswers": [
+                        "It uses alternating current and phase difference",
+                        "It measures voltage drops across resistors",
+                        "It depends on chemical changes in resistance"
+                    ]
+                },
+                {
+                    "question": "What is specific resistance (resistivity)?",
+                    "answer": "It is the resistance offered by a material of unit length and unit cross-sectional area.",
+                    "wrongAnswers": [
+                        "It is resistance divided by length",
+                        "It is the resistance between two poles",
+                        "It is the resistance of only metallic wires"
+                    ]
+                },
+                {
+                    "question": "What does the Carey Foster's bridge measure precisely?",
+                    "answer": "It is used to measure small differences in resistance accurately.",
+                    "wrongAnswers": [
+                        "It measures voltage fluctuations in AC circuits",
+                        "It determines capacitance in dielectric materials",
+                        "It measures frequency in oscillator circuits"
+                    ]
+                },
+                {
+                    "question": "Which principle does the Carey Foster’s bridge follow?",
+                    "answer": "It is based on the Wheatstone bridge principle using a slide wire to find resistance difference.",
+                    "wrongAnswers": [
+                        "It is based on the principle of electromagnetic induction",
+                        "It uses the principle of mutual inductance",
+                        "It is based on the internal resistance of a battery"
+                    ]
+                },
+                {
+                    "question": "What is the main electrolyte used in a Leclanché cell?",
+                    "answer": "Ammonium chloride (NH₄Cl)",
+                    "wrongAnswers": [
+                        "Sodium chloride",
+                        "Zinc sulfate",
+                        "Potassium nitrate"
+                    ]
+                },
+                {
+                    "question": "Which component in the Leclanché cell acts as the cathode?",
+                    "answer": "Manganese dioxide (MnO₂)",
+                    "wrongAnswers": [
+                        "Zinc rod",
+                        "Ammonium chloride",
+                        "Copper wire"
+                    ]
+                },
+                {
+                    "question": "What are the two main components of a Leclanché cell?",
+                    "answer": "Zinc (anode) and manganese dioxide with carbon (cathode)",
+                    "wrongAnswers": [
+                        "Copper and iron",
+                        "Graphite and potassium",
+                        "Lead and sulfuric acid"
+                    ]
+                },
+                {
+                    "question": "Can other cells be used in place of a Leclanché cell in bridge experiments?",
+                    "answer": "No, because Leclanché cells provide a stable low-voltage direct current needed for accurate bridge measurements.",
+                    "wrongAnswers": [
+                        "Yes, as long as the voltage is high enough",
+                        "Yes, if the cell can produce alternating current",
+                        "No, because other cells do not contain electrolytes"
+                    ]
+                },
+                {
+                    "question": "What is the purpose of using a Carey Foster’s bridge in the lab?",
+                    "answer": "To determine the unknown resistance and compare it with a standard known resistance.",
+                    "wrongAnswers": [
+                        "To generate electricity using thermoelectric effect",
+                        "To amplify signals in a circuit",
+                        "To measure the frequency of oscillations"
+                    ]
+                },
+                {
+                    "question": "How many types of electrical bridges are commonly studied in labs?",
+                    "answer": "Several, including Wheatstone, Maxwell, Carey Foster’s, and Kelvin bridges.",
+                    "wrongAnswers": [
+                        "Only one: Wheatstone bridge",
+                        "Two: Series and parallel bridges",
+                        "None, as they are outdated"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fresnel Biprism",
+            "questions": 
+                [
+                    {
+                        "question": "What is lateral shift in Fresnel's Biprism experiment?",
+                        "answer": "Lateral shift is the sideways displacement of the fringe pattern due to misalignment of the optical components, such as the biprism or the slit, relative to the optical bench.",
+                        "wrongAnswers": [
+                            "The change in wavelength of sodium light",
+                            "The distance between the biprism and the screen",
+                            "The angle of refraction in the biprism"
+                        ]
+                    },
+                    {
+                        "question": "How can lateral shift be removed in Fresnel's Biprism experiment?",
+                        "answer": "Lateral shift can be removed by adjusting the position of the slit, biprism, or eyepiece to ensure proper alignment along the optical axis of the setup.",
+                        "wrongAnswers": [
+                            "By increasing the intensity of the light source",
+                            "By changing the refracting angle of the biprism",
+                            "By using white light instead of sodium light"
+                        ]
+                    },
+                    {
+                        "question": "Why is d1 and d2 taken in Fresnel's Biprism experiment?",
+                        "answer": "d1 is the distance from the slit to the biprism, and d2 is the distance from the biprism to the screen, used to calculate the fringe width and the separation of virtual sources.",
+                        "wrongAnswers": [
+                            "To measure the intensity of light",
+                            "To determine the angle of the biprism",
+                            "To calculate the wavelength of white light"
+                        ]
+                    },
+                    {
+                        "question": "What is a coherent source in the context of Fresnel's Biprism?",
+                        "answer": "A coherent source is a light source that produces waves with a constant phase difference and the same wavelength, essential for producing stable interference patterns.",
+                        "wrongAnswers": [
+                            "A source that emits light of multiple wavelengths",
+                            "A source that produces polarized light",
+                            "A source with high intensity but no phase relation"
+                        ]
+                    },
+                    {
+                        "question": "What is an incoherent source?",
+                        "answer": "An incoherent source produces light waves with random phase differences, resulting in no stable interference pattern.",
+                        "wrongAnswers": [
+                            "A source that emits monochromatic light",
+                            "A source that produces coherent waves",
+                            "A source used for diffraction experiments"
+                        ]
+                    },
+                    {
+                        "question": "What is fringe width in Fresnel's Biprism experiment?",
+                        "answer": "Fringe width is the distance between consecutive bright or dark fringes in the interference pattern, given by β = λD/d, where λ is the wavelength, D is the distance from the slit to the screen, and d is the separation of virtual sources.",
+                        "wrongAnswers": [
+                            "The thickness of the biprism",
+                            "The distance between the slit and the biprism",
+                            "The width of the light source"
+                        ]
+                    },
+                    {
+                        "question": "What is a Fresnel's Biprism?",
+                        "answer": "Fresnel's Biprism is an optical device made of two thin prisms joined at their bases, used to create two virtual coherent sources from a single light source to produce interference fringes.",
+                        "wrongAnswers": [
+                            "A lens used to focus light",
+                            "A mirror that reflects light to create fringes",
+                            "A diffraction grating for spectral analysis"
+                        ]
+                    },
+                    {
+                        "question": "On which principle does Fresnel's Biprism work?",
+                        "answer": "Fresnel's Biprism works on the principle of interference of light, where two virtual coherent sources created by refraction produce an interference pattern.",
+                        "wrongAnswers": [
+                            "Diffraction of light through a narrow slit",
+                            "Polarization of light waves",
+                            "Reflection of light from a surface"
+                        ]
+                    },
+                    {
+                        "question": "What is bench error in Fresnel's Biprism experiment?",
+                        "answer": "Bench error is the misalignment or inaccuracy in the optical bench setup, such as improper positioning of the slit, biprism, or eyepiece, leading to errors in measurements like fringe width.",
+                        "wrongAnswers": [
+                            "The error in calculating the wavelength",
+                            "The error due to using white light",
+                            "The error in the refracting angle of the biprism"
+                        ]
+                    },
+                    {
+                        "question": "Why does sodium light have two wavelengths?",
+                        "answer": "Sodium light has two wavelengths (589.0 nm and 589.6 nm, known as the D1 and D2 lines) due to the transition of electrons between specific energy levels in sodium atoms.",
+                        "wrongAnswers": [
+                            "Due to the use of two different light sources",
+                            "Because of the biprism splitting the light",
+                            "Due to polarization effects in the light"
+                        ]
+                    },
+                    {
+                        "question": "What happens to the fringe pattern if white light is used instead of sodium light?",
+                        "answer": "Using white light produces a central white fringe with colored fringes on either side due to the overlap of interference patterns from multiple wavelengths, unlike the distinct monochromatic fringes with sodium light.",
+                        "wrongAnswers": [
+                            "The fringes disappear completely",
+                            "The fringes remain the same as with sodium light",
+                            "The fringes become wider and brighter"
+                        ]
+                    },
+                    {
+                        "question": "Why is the refracting angle of Fresnel's Biprism kept small?",
+                        "answer": "The refracting angle is kept small (about 0.5°) to ensure that the two virtual sources are close enough to produce clear and measurable interference fringes.",
+                        "wrongAnswers": [
+                            "To increase the intensity of the light",
+                            "To reduce the wavelength of the light",
+                            "To make the biprism easier to manufacture"
+                        ]
+                    },
+                    {
+                        "question": "What is fringe shift in Fresnel's Biprism experiment?",
+                        "answer": "Fringe shift is the displacement of the interference pattern when a transparent medium, like a thin film, is introduced in the path of one of the interfering beams, altering the optical path length.",
+                        "wrongAnswers": [
+                            "The change in the refracting angle of the biprism",
+                            "The lateral movement of the light source",
+                            "The variation in the intensity of the fringes"
+                        ]
+                    },
+                    {
+                        "question": "How is fringe shift fixed in Fresnel's Biprism experiment?",
+                        "answer": "Fringe shift is fixed by adjusting the position of the medium or compensating for the optical path difference, often by using a compensator plate or recalibrating the setup.",
+                        "wrongAnswers": [
+                            "By increasing the light intensity",
+                            "By changing the wavelength of the light",
+                            "By rotating the biprism"
+                        ]
+                    },
+                    {
+                        "question": "What is the least count of a micrometer in Fresnel's Biprism experiment?",
+                        "answer": "The least count of a micrometer is typically 0.01 mm or 0.005 mm, depending on the precision of the micrometer used to measure distances like fringe width.",
+                        "wrongAnswers": [
+                            "1 mm",
+                            "0.1 mm",
+                            "0.001 mm"
+                        ]
+                    },
+                    {
+                        "question": "What is interference in the context of Fresnel's Biprism?",
+                        "answer": "Interference is the phenomenon where two or more waves superpose to form a resultant wave of greater or lower amplitude, producing bright and dark fringes in the biprism experiment.",
+                        "wrongAnswers": [
+                            "The bending of light around corners",
+                            "The reflection of light from a surface",
+                            "The scattering of light by particles"
+                        ]
+                    },
+                    {
+                        "question": "What are constructive and destructive interference?",
+                        "answer": "Constructive interference occurs when waves are in phase, resulting in increased amplitude (bright fringes), while destructive interference occurs when waves are out of phase, resulting in reduced amplitude (dark fringes).",
+                        "wrongAnswers": [
+                            "Constructive interference reduces amplitude, destructive increases it",
+                            "Both are caused by diffraction",
+                            "Both produce the same type of fringes"
                         ]
                     }
                 ]
