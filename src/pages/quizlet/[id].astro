@@ -140,16 +140,17 @@ Alpine.nextTick(() => {
 
   function nextQuestion() {
   
-    if (clockState.interval) {
-      clearInterval(clockState.interval);
-      clockState.time = clockState.fullTime;
-      clockState.finished = false;
-      clockState.start();
-    }
+    
 
     const currentQuestion = state.currentQuestion;
     if (currentQuestion < currentQuizlet.questions.length - 1) {
       state.currentQuestion++;
+      if (clockState.interval) {
+        clearInterval(clockState.interval);
+        clockState.time = clockState.fullTime;
+        clockState.finished = false;
+        clockState.start();
+      }
     } else {
       state.reviewTime = true;
     }
