@@ -2,3 +2,6 @@
 
 
 @config "../../tailwind.config.mjs"
+body {
+    font-family: 'Quicksand', sans-serif;
+  }
