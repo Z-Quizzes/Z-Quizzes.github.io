@@ -45,8 +45,8 @@ interface QuizletCollection {
       <div class="overflow-hidden">
           <ul class="mt-2 space-y-2 p-4">
            {item.quizlets.map((quizlet: Quizlet) => 
-            <li class="cursor-pointer bg-surface p-4 text-xl text-text rounded-lg hover:bg-text/80 hover:text-background transition-colors">
-                <a href={`/quizlet/${quizlet.name}`} class="block">
+            <li class="cursor-pointer bg-surface text-xl text-text rounded-lg hover:bg-text/80 hover:text-background transition-colors">
+                <a href={`/quizlet/${quizlet.name}`} class="block p-4">
                 { quizlet.name } 
                 </a>
             </li>
